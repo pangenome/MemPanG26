@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.20">
-<title>MemPanG25</title>
+<meta name="generator" content="Asciidoctor 2.0.16">
+<title>MemPanG26</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -84,10 +84,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
-ul.square{list-style-type:square}
-ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -193,8 +193,7 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
 details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
 details{margin-left:1.25rem}
-details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
-details>summary::-webkit-details-marker{display:none}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;-webkit-tap-highlight-color:transparent}
 details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
 details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
 details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
@@ -208,10 +207,13 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
 .exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
+.exampleblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child{margin-bottom:0}
 .sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
+.sidebarblock>:first-child{margin-top:0}
+.sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
-.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
-.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
 .literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
@@ -233,8 +235,9 @@ pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
 table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
 table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
 table.linenotable td.code{padding-left:.75em}
-table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+table.linenotable td.linenos{border-right:1px solid;opacity:.35;padding-right:.5em}
+pre.pygments .lineno{border-right:1px solid;opacity:.35;display:inline-block;margin-right:.75em}
+pre.pygments .lineno::before{content:"";margin-right:-.125em}
 .quoteblock{margin:0 1em 1.25em 1.5em;display:table}
 .quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
 .quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
@@ -271,7 +274,7 @@ table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-c
 table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
 table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
 table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
-table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
 th.halign-left,td.halign-left{text-align:left}
 th.halign-right,td.halign-right{text-align:right}
 th.halign-center,td.halign-center{text-align:center}
@@ -287,11 +290,10 @@ ol{margin-left:1.75em}
 ul li ol{margin-left:1.5em}
 dl dd{margin-left:1.125em}
 dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
-li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
 ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
 ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
 ul.unstyled,ol.unstyled{margin-left:0}
-li>p:empty:only-child::before{content:"";display:inline-block}
 ul.checklist>li>p:first-child{margin-left:-1em}
 ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
 ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
@@ -334,6 +336,8 @@ sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
 #footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
 #footnotes .footnote:last-of-type{margin-bottom:0}
 #content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
+.gist .file-data>table td.line-data{width:99%}
 div.unbreakable{page-break-inside:avoid}
 .big{font-size:larger}
 .small{font-size:smaller}
@@ -390,7 +394,7 @@ b.conum *{color:inherit!important}
 dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
 h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
 p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
+p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
 .exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
@@ -435,12 +439,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1><strong>MemPanG25</strong></h1>
+<h1><strong>MemPanG26</strong></h1>
 <div id="toc" class="toc2">
-<div id="toctitle">MemPanG25</div>
+<div id="toctitle">MemPanG26</div>
 <ul class="sectlevel1">
-<li><a href="#_important_dates"><strong>Important Dates</strong></a></li>
-<li><a href="#_venues"><strong>Venues</strong></a>
+<li><a href="#_to_confirm_important_dates"><strong>TO CONFIRM: Important Dates</strong></a></li>
+<li><a href="#_to_confirm_venues"><strong>TO CONFIRM: Venues</strong></a>
 <ul class="sectlevel2">
 <li><a href="#_practical_course_workshop">Practical course / Workshop</a></li>
 <li><a href="#_conference">Conference</a></li>
@@ -449,9 +453,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_transportation_in_memphis">Transportation in Memphis</a></li>
 </ul>
 </li>
-<li><a href="#_about_the_practical_course_workshop"><strong>About the Practical Course / Workshop</strong></a></li>
-<li><a href="#_about_the_conference"><strong>About the Conference</strong></a></li>
-<li><a href="#_about_the_biohackathon"><strong>About the Biohackathon</strong></a></li>
+<li><a href="#_about_the_practical_course_workshop"><strong>About the practical course / workshop</strong></a></li>
+<li><a href="#_about_the_conference"><strong>About the conference</strong></a></li>
+<li><a href="#_about_the_biohackathon"><strong>About the biohackathon</strong></a></li>
 <li><a href="#_people"><strong>People</strong></a>
 <ul class="sectlevel2">
 <li><a href="#_practical_course_workshop_instructors">Practical Course / Workshop Instructors</a></li>
@@ -495,34 +499,34 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_important_dates"><strong>Important Dates</strong></h2>
+<h2 id="_to_confirm_important_dates"><strong>TO CONFIRM: Important Dates</strong></h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Practical course/Conference/Biohackathon Registration Deadline: <strong>1st April 2025</strong></p>
+<p>Practical course/Conference/Biohackathon Registration Deadline: <strong>1st April 2026</strong></p>
 </li>
 <li>
-<p>Selected Participant will be notified by: <strong>7th April 2025</strong></p>
+<p>Selected Participant will be notified by: <strong>7th April 2026</strong></p>
 </li>
 <li>
-<p>Payment Deadline: <strong>21th April 2025</strong></p>
+<p>Payment Deadline: <strong>21th April 2026</strong></p>
 </li>
 <li>
-<p>Practical course / Workshop: <strong>11th-12th May 2025</strong></p>
+<p>Practical course / Workshop: <strong>11th-12th May 2026</strong></p>
 </li>
 <li>
-<p>Conference: <strong>13th May 2025</strong></p>
+<p>Conference: <strong>13th May 2026</strong></p>
 </li>
 <li>
-<p>Biohackathon: <strong>14th-15th May 2025</strong></p>
+<p>Biohackathon: <strong>14th-15th May 2026</strong></p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_venues"><strong>Venues</strong></h2>
+<h2 id="_to_confirm_venues"><strong>TO CONFIRM: Venues</strong></h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_practical_course_workshop">Practical course / Workshop</h3>
@@ -596,10 +600,10 @@ United States<br>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_about_the_practical_course_workshop"><strong>About the Practical Course / Workshop</strong></h2>
+<h2 id="_about_the_practical_course_workshop"><strong>About the practical course / workshop</strong></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Sunday, May 11, 2025 - Monday, May 12, 2025</strong><br>
+<p><strong>Sunday, May 11, 2026 - Monday, May 12, 2026</strong><br>
 The use of a single reference genome in bioinformatics can lead to reference bias and miss important information about genome variability and relationships. New assembly methods have made it easier to generate high-quality complete genome assemblies, and using a pangenome graph that expresses many genomes and their mutual alignment can help address these issues.
 This practical course / workshop will focus on building such graphs from whole genome assemblies and using them in various downstream applications in comparative genomics, evolution, variation analysis, sequence alignment, and phenotype association.</p>
 </div>
@@ -610,10 +614,10 @@ By the end of the practical course / workshop, participants will have a strong u
 </div>
 </div>
 <div class="sect1">
-<h2 id="_about_the_conference"><strong>About the Conference</strong></h2>
+<h2 id="_about_the_conference"><strong>About the conference</strong></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Tuesday, May 13, 2025</strong><br>
+<p><strong>Tuesday, May 13, 2026</strong><br>
 We will gather for an in-person conference on the day after the practical course / workshop.
 This will bring together practical course / workshop participants and virtual and in-person speakers who are actively working on diverse aspects of pangenome research.
 The virtual meeting will be open to the public.
@@ -623,14 +627,14 @@ We expect to draw speakers from a diverse set of species contexts.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_about_the_biohackathon"><strong>About the Biohackathon</strong></h2>
+<h2 id="_about_the_biohackathon"><strong>About the biohackathon</strong></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Wednesday, May 14, 2025 - Thursday, May 15, 2025</strong><br></p>
+<p><strong>Wednesday, May 14, 2026 - Thursday, May 15, 2026</strong><br></p>
 </div>
 <div class="paragraph">
 <p>We have a focus on software.
-We will work with/on pangenomic tools (such as <a href="https://github.com/pangenome/pggb/">PGGB</a>, <a href="https://github.com/waveygang/wfmash/">WFMASH</a>, <a href="https://github.com/ekg/seqwish/">SEQWISH</a>, <a href="https://github.com/pangenome/odgi/">ODGI</a>, <a href="https://github.com/pangenome/smoothxg/">SMOOTHXG</a>, <a href="https://github.com/vgteam/vg">VG</a>, <a href="https://github.com/vcflib/vcflib/">VCFLIB</a>, <a href="https://github.com/genetics-statistics/GEMMA/">GEMMA</a>) with software project leadership.
+We will work with/on pangenomic tools (such as <a href="https://github.com/pangenome/pggb/">PGGB</a>, <a href="https://github.com/waveygang/wfmash/">WFMASH</a>,  <a href="https://github.com/pangenome/impg/">IMPG</a>,<a href="https://github.com/ekg/seqwish/">SEQWISH</a>, <a href="https://github.com/pangenome/odgi/">ODGI</a>, <a href="https://github.com/pangenome/smoothxg/">SMOOTHXG</a>, <a href="https://github.com/vgteam/vg">VG</a>, <a href="https://github.com/vcflib/vcflib/">VCFLIB</a>, <a href="https://github.com/genetics-statistics/GEMMA/">GEMMA</a>) with software project leadership.
 <strong>You are welcome to bring your own projects!</strong></p>
 </div>
 </div>
@@ -651,10 +655,10 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 </div>
 </div>
 <div class="sect3">
-<h4 id="_andrea_guarracino_postdoctoral_scholar">Andrea Guarracino - Postdoctoral Scholar</h4>
+<h4 id="_andrea_guarracino_assistant_professor">Andrea Guarracino - Assistant Professor</h4>
 <div class="paragraph">
 <div class="title"><span class="purple">University of Tennessee Health Science Center, Memphis, TN, US</span></div>
-<p><span class="image right"><img src="images/andrea.jpeg" alt="erik" width="200"></span>Computer (bio)scientist dedicated to developing and applying new methods to analyze ever-larger collections of sequences (also called "pangenomes") in the tree of life.</p>
+<p><span class="image right"><img src="images/andrea.jpeg" alt="erik" width="200"></span> Computer scientist dedicated to developing and applying new methods to analyze pangenomes.</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span> <a href="https://andreaguarracino.github.io/">Website</a></p>
@@ -664,45 +668,7 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 </div>
 <div class="sect2">
 <h3 id="_helpers">Helpers</h3>
-<div class="sect3">
-<h4 id="_jan_niklas_schmelzle_phd_student">Jan-Niklas Schmelzle - PhD student</h4>
-<div class="paragraph">
-<div class="title"><span class="purple">ECE PhD Student, Cornell University, US</span></div>
-<p><span class="image right"><img src="images/niklas.jpeg" alt="niklas" width="200"></span></p>
-</div>
-<div class="paragraph">
-<p>+</p>
-</div>
-<div class="paragraph">
-<p>+</p>
-</div>
-<div class="paragraph">
-<p>+</p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span> <a href="https://scholar.google.com/citations?user=m_vTR7YAAAAJ&amp;hl=en">Google Scholar</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_arun_isaac_postdoctoral_scholar">Arun Isaac - Postdoctoral Scholar</h4>
-<div class="paragraph">
-<div class="title"><span class="purple">University College London, London, UK</span></div>
-<p><span class="image right"><img src="images/arun.jpg" alt="arun" width="200"></span></p>
-</div>
-<div class="paragraph">
-<p>+</p>
-</div>
-<div class="paragraph">
-<p>+</p>
-</div>
-<div class="paragraph">
-<p>+</p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span> <a href="https://aruni.systemreboot.net">Website</a></p>
-</div>
 <hr>
-</div>
 </div>
 <div class="sect2">
 <h3 id="_organizers">Organizers</h3>
@@ -726,12 +692,6 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <li>
 <p><a href="https://uthsc.edu/search/detail.php?id=T100344325">Tamara Brock</a>, University of Tennessee Health Science Center, Memphis, TN, US</p>
 </li>
-<li>
-<p><a href="https://aruni.systemreboot.net">Arun Isaac</a>, University College London, London, UK</p>
-</li>
-<li>
-<p><a href="https://www.christinaboucher.com/">Christina Boucher</a>, University of Florida, Gainesville, FL, US</p>
-</li>
 </ul>
 </div>
 <div class="paragraph">
@@ -749,407 +709,29 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <div class="sect2">
 <h3 id="_practical_course_workshop_2">Practical course / Workshop</h3>
 <div class="paragraph">
-<p><strong>Time:</strong> Sunday-Monday, 11th-12th May 2025<br></p>
+<p><strong>Time:</strong> Monday-Tuesday, 11th-12th May 2026<br></p>
 </div>
 <div class="paragraph">
 <p><strong>Place</strong>: <a href="https://www.google.com/maps/place/930+Madison+Ave,+Memphis,+TN+38103/@35.1405526,-90.0321798,17z/data=!3m1!4b1!4m6!3m5!1s0x87d57e65083437ab:0x975bb3c7cbb47cf0!8m2!3d35.1405526!4d-90.0296049!16s%2Fg%2F11c26jf2ws?entry=ttu">930 Madison Ave, Freeman Auditorium at the Hamilton Eye Institute, 3rd floor</a></p>
 </div>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 22.2222%;">
-<col style="width: 11.1111%;">
-<col style="width: 22.2222%;">
-<col style="width: 44.4445%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Day</th>
-<th class="tableblock halign-left valign-top">Time</th>
-<th class="tableblock halign-left valign-top">Speaker(s)</th>
-<th class="tableblock halign-left valign-top">Topic</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sunday, May 11, 2025</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">09:30-10:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Erik Garrison</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Presentation: Introduction to pangenomics</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">10:00-10:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Practical: Build your first pangenome graphs</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>10:30-11:00</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Everyone</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Coffee break</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">11:00-12:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Practical: PGGB</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>12:30-14:00</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Everyone</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Lunch (provided)</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">14:00-14:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Andrea Guarracino</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Presentation: Understanding pangenomes</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">14:30-15:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Practical: ODGI commands</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>15:30-16:00</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Everyone</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Coffee break</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">16:00-16:45</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Practical:  ODGI commands</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">16:55-17:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Q&amp;A, Day 1 Survey</p></td>
-</tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 22.2222%;">
-<col style="width: 11.1111%;">
-<col style="width: 22.2222%;">
-<col style="width: 44.4445%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Day</th>
-<th class="tableblock halign-left valign-top">Time</th>
-<th class="tableblock halign-left valign-top">Speaker(s)</th>
-<th class="tableblock halign-left valign-top">Topic</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Monday, May 12, 2025</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">09:30-09:45</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Discussion about previous day activities</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">09:45-10:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Erik Garrison</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Presentation: Sequence partitioning</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">10:00-10:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Practical: Reference-guided partitioning</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>10:30-11:00</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Everyone</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Coffee break</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">11:00-12:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Practical: Reference-free partitioning</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>12:30-14:00</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Everyone</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Lunch (provided)</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">14:00-14:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Andrea Guarracino</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Presentation: Implicit pangenomics and pangenome genotyping</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">14:30-16:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Practical: Implicit pangenome graphs</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>16:00-16:30</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Everyone</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Coffee break</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">16:00-16:45</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Practical: Pangenome-based genotyping</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">16:55-17:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Q&amp;A, Day 2 Survey</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">17:00-17:05</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">TBD</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Closure</p></td>
-</tr>
-</tbody>
-</table>
 </div>
 <div class="sect2">
 <h3 id="_conference_2">Conference</h3>
 <div class="paragraph">
-<p><strong>Time:</strong> Tuesday, 13 May 2025<br></p>
+<p><strong>Time:</strong> Wednesday, 13 May 2026<br></p>
 </div>
 <div class="paragraph">
 <p><strong>Place</strong>: <a href="https://www.google.com/maps/place/930+Madison+Ave,+Memphis,+TN+38103/@35.1405526,-90.0321798,17z/data=!3m1!4b1!4m6!3m5!1s0x87d57e65083437ab:0x975bb3c7cbb47cf0!8m2!3d35.1405526!4d-90.0296049!16s%2Fg%2F11c26jf2ws?entry=ttu">930 Madison Ave, Freeman Auditorium at the Hamilton Eye Institutee, 3rd floor</a></p>
 </div>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 18.1818%;">
-<col style="width: 18.1818%;">
-<col style="width: 45.4545%;">
-<col style="width: 18.1819%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Chair</th>
-<th class="tableblock halign-left valign-top">Time</th>
-<th class="tableblock halign-left valign-top">Talk</th>
-<th class="tableblock halign-left valign-top">Speaker</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">09:25 - 09:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Conference Opening</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.uthsc.edu/faculty/profile/?netid=rwilli10/">Robert Williams</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://andreaguarracino.github.io/">Andrea Guarracino</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">09:30 - 10:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Visualize Whole Genome Multiple Sequence Alignments in NCBI’s New Multiple Comparative Genome Viewer (MCGV)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sanjida Rangwala</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">10:00 - 10:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">PangyPlot: An Interactive Graph Viewer Designed for Reference Pangenomes</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Scott Mastromatteo</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">10:30 - 11:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Novel Chromosomal Rearrangements and Their Role in Speciation in Primates</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Brooklynn Scott</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>11:00 - 11:30</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Coffee break</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Coffee</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://scholar.google.com/citations?user=m_vTR7YAAAAJ&amp;hl=en/">Jan-Niklas Schmelzle</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">11:30 - 12:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Pangenome graph resolves the dynamic evolution of the plant immune system</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Gautam Shirsekar</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">12:00 - 12:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Diverse graph-based approaches for complex collections of plant genomes</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Avril Harder</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">12:30 - 13:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Integrating genetic ancestry, environmental exposure and health equity</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vincenza Colonna</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>13:00 - 14:00</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Lunch (provided)</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Food</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.linkedin.com/in/shelbysolomondarnell/?originalSubdomain=ke">Shelby Solomon Darnell</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">14:00 - 14:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Efficient Grammar Compression via RLZ-based RePair</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Rahul Varki</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">14:30 - 15:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Disentangling reticulate evolution in Mediterranean Wall Lizards with a super pangenome</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Natalia Zajac</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">15:00 - 15:05</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Conference Closing</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vincenza Colonna</p></td>
-</tr>
-</tbody>
-</table>
 </div>
 <div class="sect2">
 <h3 id="_biohackathon_2">Biohackathon</h3>
 <div class="paragraph">
-<p><strong>Time:</strong> Wednesday-Thursday, 14th-15th May 2025<br></p>
+<p><strong>Time:</strong> Thursday-Friday, 14th-15th May 2026<br></p>
 </div>
 <div class="paragraph">
 <p><strong>Place:</strong> <a href="https://maps.app.goo.gl/QpQgUyRyjzjxP1vM9">Room 101, UTHSC Translational Research Science Building</a></p>
 </div>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 22.2222%;">
-<col style="width: 11.1111%;">
-<col style="width: 22.2222%;">
-<col style="width: 44.4445%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Day</th>
-<th class="tableblock halign-left valign-top">Time</th>
-<th class="tableblock halign-left valign-top">Speaker(s)</th>
-<th class="tableblock halign-left valign-top">Topic</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Wednesday, May 14, 2025</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">09:30-10:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Hacking</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">10:30-11:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Coffee break</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">11:00-12:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Hacking</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>12:30-14:30</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Everyone</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Lunch</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">14:30-15:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Hacking</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">15:30-16:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Coffee break</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">16:00-17:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Hacking</p></td>
-</tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 22.2222%;">
-<col style="width: 11.1111%;">
-<col style="width: 22.2222%;">
-<col style="width: 44.4445%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Day</th>
-<th class="tableblock halign-left valign-top">Time</th>
-<th class="tableblock halign-left valign-top">Speaker(s)</th>
-<th class="tableblock halign-left valign-top">Topic</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Thursday, May 15, 2025</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">09:30-10:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Hacking</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">10:30-11:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Coffee break</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">11:00-12:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Hacking</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>12:30-14:30</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Everyone</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Lunch</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">14:30-15:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Hacking</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">15:30-16:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Coffee break</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">16:00-17:00</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Everyone</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Hacking</p></td>
-</tr>
-</tbody>
-</table>
 </div>
 </div>
 </div>
@@ -1157,7 +739,7 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <h2 id="_registration_and_practical_information"><strong>Registration and Practical Information</strong></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>CLOSED</strong></p>
+<p><strong>TBD</strong></p>
 </div>
 <div class="paragraph">
 <p>Registration includes access to: all lectures and practical sessions, all course materials.</p>
@@ -1170,10 +752,10 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <div class="ulist">
 <ul>
 <li>
-<p>Academic - $200, with financial support if needed</p>
+<p>Academic - $250, with financial support if needed</p>
 </li>
 <li>
-<p>Industry - $400</p>
+<p>Industry - $500</p>
 </li>
 </ul>
 </div>
@@ -1256,7 +838,7 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-05-11 09:41:37 -0500
+Last updated 2025-09-03 14:23:19 +0200
 </div>
 </div>
 </body>

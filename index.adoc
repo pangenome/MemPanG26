@@ -1,6 +1,6 @@
-= *MemPanG25*
+= *MemPanG26*
 :figure-caption!:
-:toc-title: MemPanG25
+:toc-title: MemPanG26
 :toc: left
 :toclevels: 2
 
@@ -10,20 +10,20 @@ image::images/DRB1-3123.fa.gz.pggb-E-s5000-l15000-p80-n10-a0-K16-k8-w50000-j5000
 image::images/bridge.png[400]
 
 
-== *Important Dates*
+== *TO CONFIRM: Important Dates*
 
-- Practical course/Conference/Biohackathon Registration Deadline: *1st April 2025*
-- Selected Participant will be notified by: *7th April 2025*
-- Payment Deadline: *21th April 2025*
-- Practical course / Workshop: *11th-12th May 2025*
-- Conference: *13th May 2025*
-- Biohackathon: *14th-15th May 2025*
+- Practical course/Conference/Biohackathon Registration Deadline: *1st April 2026*
+- Selected Participant will be notified by: *7th April 2026*
+- Payment Deadline: *21th April 2026*
+- Practical course / Workshop: *11th-12th May 2026*
+- Conference: *13th May 2026*
+- Biohackathon: *14th-15th May 2026*
 ////
-== *OPEN CALL FOR SPEAKERS - MemPanG25*
+== *OPEN CALL FOR SPEAKERS - MemPanG26*
 
-We are thrilled to announce an open invitation to experts and enthusiasts in the field of pangenome research to be a part of our upcoming MemPanG25.
-This significant event is scheduled for May 14th, 2025, and aims to delve into the multifaceted world of pangenome research.
-The submission deadline for talk proposals is *April 15th, 2025*.
+We are thrilled to announce an open invitation to experts and enthusiasts in the field of pangenome research to be a part of our upcoming MemPanG26.
+This significant event is scheduled for May 13th, 2026, and aims to delve into the multifaceted world of pangenome research.
+The submission deadline for talk proposals is *April 15th, 2026*.
 
 *Focus Areas:* Our conference will cover a broad range of topics, including but not limited to, methods in pangenome research, genome assembly, data visualization, artificial intelligence (AI), and collaborative projects.
 
@@ -32,7 +32,7 @@ The submission deadline for talk proposals is *April 15th, 2025*.
 *Duration:* Each talk should be approximately 20 minutes, followed by a Q&A session, amounting to a total of 25 minutes.
 
 *Submission:* We kindly request you to https://docs.google.com/forms/d/e/1FAIpQLSe2mnJ_kZm_I2j5lIBoLGL-hLW4mxzHpphvWomLbsul4C8goA/viewform?usp=sf_link[forward the title and abstract of your talk] upon confirmation of your participation.
-You can see abstract examples at https://pangenome.github.io/MemPanG25/abstract_examples.html.
+You can see abstract examples at https://pangenome.github.io/MemPanG26/abstract_examples.html.
 
 *Location:* The event will be held in Memphis.
 
@@ -40,9 +40,9 @@ You can see abstract examples at https://pangenome.github.io/MemPanG25/abstract_
 
 Let's make this a fun day!
 
-MemPanG25 organizers
+MemPanG26 organizers
 ////
-== *Venues*
+== *TO CONFIRM: Venues*
 
 === Practical course / Workshop
 *Freeman Auditorium at the Hamilton Eye Institute* +
@@ -81,30 +81,30 @@ United States +
 
 If you stay in Downtown, the Medical District, South City, or New Chicago, you can reach the event venue by getting on-demand, convenient, and affordable rides with link:https://city.ridewithvia.com/groove-on-demand[Groove On-Demand].
 
-== *About the Practical Course / Workshop*
+== *About the practical course / workshop*
 
-*Sunday, May 11, 2025 - Monday, May 12, 2025* +
+*Sunday, May 11, 2026 - Monday, May 12, 2026* +
 The use of a single reference genome in bioinformatics can lead to reference bias and miss important information about genome variability and relationships. New assembly methods have made it easier to generate high-quality complete genome assemblies, and using a pangenome graph that expresses many genomes and their mutual alignment can help address these issues.
 This practical course / workshop will focus on building such graphs from whole genome assemblies and using them in various downstream applications in comparative genomics, evolution, variation analysis, sequence alignment, and phenotype association.
 
 Participants will learn about pangenome concepts and gain practical experience building and analyzing pangenome graphs. They will apply these methods to complex research questions that require understanding the relationships between multiple genomes or accounting for variability when analyzing new genomes.
 By the end of the practical course / workshop, participants will have a strong understanding of pangenome methods based on whole genome assemblies.
 
-== *About the Conference*
+== *About the conference*
 
-*Tuesday, May 13, 2025* +
+*Tuesday, May 13, 2026* +
 We will gather for an in-person conference on the day after the practical course / workshop.
 This will bring together practical course / workshop participants and virtual and in-person speakers who are actively working on diverse aspects of pangenome research.
 The virtual meeting will be open to the public.
 Speakers will cover topics at the intersection of pangenome methods and biology, including a focus on basic methods, data structures, genome assembly, data visualization, and public collaborative pangenome projects.
 We expect to draw speakers from a diverse set of species contexts.
 
-== *About the Biohackathon*
+== *About the biohackathon*
 
-*Wednesday, May 14, 2025 - Thursday, May 15, 2025* +
+*Wednesday, May 14, 2026 - Thursday, May 15, 2026* +
 
 We have a focus on software.
-We will work with/on pangenomic tools (such as link:https://github.com/pangenome/pggb/[PGGB], link:https://github.com/waveygang/wfmash/[WFMASH], link:https://github.com/ekg/seqwish/[SEQWISH], link:https://github.com/pangenome/odgi/[ODGI], link:https://github.com/pangenome/smoothxg/[SMOOTHXG], link:https://github.com/vgteam/vg[VG], link:https://github.com/vcflib/vcflib/[VCFLIB], link:https://github.com/genetics-statistics/GEMMA/[GEMMA]) with software project leadership.
+We will work with/on pangenomic tools (such as link:https://github.com/pangenome/pggb/[PGGB], link:https://github.com/waveygang/wfmash/[WFMASH],  link:https://github.com/pangenome/impg/[IMPG],link:https://github.com/ekg/seqwish/[SEQWISH], link:https://github.com/pangenome/odgi/[ODGI], link:https://github.com/pangenome/smoothxg/[SMOOTHXG], link:https://github.com/vgteam/vg[VG], link:https://github.com/vcflib/vcflib/[VCFLIB], link:https://github.com/genetics-statistics/GEMMA/[GEMMA]) with software project leadership.
 *You are welcome to bring your own projects!*
 
 == *People*
@@ -120,11 +120,11 @@ image:images/erik.jpeg[erik,200,role="right"] Genomicist with a quantitative soc
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/ekg[GitHub]
 
-==== Andrea Guarracino - Postdoctoral Scholar
+==== Andrea Guarracino - Assistant Professor
 
 .[purple]#University of Tennessee Health Science Center, Memphis, TN, US#
 
-image:images/andrea.jpeg[erik,200,role="right"]Computer (bio)scientist dedicated to developing and applying new methods to analyze ever-larger collections of sequences (also called "pangenomes") in the tree of life.
+image:images/andrea.jpeg[erik,200,role="right"] Computer scientist dedicated to developing and applying new methods to analyze pangenomes.
 
 image:images/Octicons-mark-github.svg[git,30] https://andreaguarracino.github.io/[Website]
 
@@ -150,6 +150,8 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/subwaystation[G
 
 === Helpers
 
+////
+
 ==== Jan-Niklas Schmelzle - PhD student
 
 .[purple]#ECE PhD Student, Cornell University, US#
@@ -171,6 +173,8 @@ image:images/arun.jpg[arun,200,role="right"]
 +
 
 image:images/Octicons-mark-github.svg[git,30] https://aruni.systemreboot.net[Website]
+
+////
 
 ////
 
@@ -207,8 +211,8 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[GitHub
 - link:https://thebird.nl/[Pjotr Prins], University of Tennessee Health Science Center, Memphis, TN, US
 - link:https://www.uthsc.edu/faculty/profile/?netid=vcolonna[Vincenza Colonna], University of Tennessee Health Science Center, Memphis, TN, US
 - link:https://uthsc.edu/search/detail.php?id=T100344325[Tamara Brock], University of Tennessee Health Science Center, Memphis, TN, US
-- link:https://aruni.systemreboot.net[Arun Isaac], University College London, London, UK
-- link:https://www.christinaboucher.com/[Christina Boucher], University of Florida, Gainesville, FL, US
+// - link:https://aruni.systemreboot.net[Arun Isaac], University College London, London, UK
+// - link:https://www.christinaboucher.com/[Christina Boucher], University of Florida, Gainesville, FL, US
 
 image:images/UTHSC.png[uthsc,300]
 
@@ -218,105 +222,105 @@ University of Tennessee Health Science Center, Department of Genetics, Genomics 
 
 === Practical course / Workshop
 
-*Time:* Sunday-Monday, 11th-12th May 2025 +
+*Time:* Monday-Tuesday, 11th-12th May 2026 +
 
 *Place*: link:https://www.google.com/maps/place/930+Madison+Ave,+Memphis,+TN+38103/@35.1405526,-90.0321798,17z/data=!3m1!4b1!4m6!3m5!1s0x87d57e65083437ab:0x975bb3c7cbb47cf0!8m2!3d35.1405526!4d-90.0296049!16s%2Fg%2F11c26jf2ws?entry=ttu[930 Madison Ave, Freeman Auditorium at the Hamilton Eye Institute, 3rd floor]
 
-[options="header", cols="2,1,2,4"]
-|===
-|Day | Time | Speaker(s) | Topic
+// [options="header", cols="2,1,2,4"]
+// |===
+// |Day | Time | Speaker(s) | Topic
 
-|Sunday, May 11, 2025 | 09:30-10:00  | Erik Garrison | Presentation: Introduction to pangenomics
-|| 10:00-10:30 | Everyone | Practical: Build your first pangenome graphs
-|| *10:30-11:00* | *Everyone* | *Coffee break*
-|| 11:00-12:30 | Everyone | Practical: PGGB
-|| *12:30-14:00* | *Everyone* | *Lunch (provided)*
-|| 14:00-14:30 | Andrea Guarracino | Presentation: Understanding pangenomes
-|| 14:30-15:30 | Everyone | Practical: ODGI commands
-|| *15:30-16:00* | *Everyone* | *Coffee break*
-|| 16:00-16:45 | Everyone | Practical:  ODGI commands
-|| 16:55-17:00 | Everyone | Q&A, Day 1 Survey
-|===
+// |Sunday, May 11, 2026 | 09:30-10:00  | Erik Garrison | Presentation: Introduction to pangenomics
+// || 10:00-10:30 | Everyone | Practical: Build your first pangenome graphs
+// || *10:30-11:00* | *Everyone* | *Coffee break*
+// || 11:00-12:30 | Everyone | Practical: PGGB
+// || *12:30-14:00* | *Everyone* | *Lunch (provided)*
+// || 14:00-14:30 | Andrea Guarracino | Presentation: Understanding pangenomes
+// || 14:30-15:30 | Everyone | Practical: ODGI commands
+// || *15:30-16:00* | *Everyone* | *Coffee break*
+// || 16:00-16:45 | Everyone | Practical:  ODGI commands
+// || 16:55-17:00 | Everyone | Q&A, Day 1 Survey
+// |===
 
-[options="header", cols="2,1,2,4"]
-|===
-|Day | Time | Speaker(s) | Topic
-|Monday, May 12, 2025 | 09:30-09:45 | Everyone | Discussion about previous day activities
-|| 09:45-10:00 | Erik Garrison | Presentation: Sequence partitioning
-|| 10:00-10:30 | Everyone | Practical: Reference-guided partitioning
-|| *10:30-11:00* | *Everyone* | *Coffee break*
-|| 11:00-12:30 | Everyone | Practical: Reference-free partitioning
-|| *12:30-14:00* | *Everyone* | *Lunch (provided)*
-|| 14:00-14:30 | Andrea Guarracino | Presentation: Implicit pangenomics and pangenome genotyping
-|| 14:30-16:00 | Everyone | Practical: Implicit pangenome graphs
-|| *16:00-16:30* | *Everyone* | *Coffee break*
-|| 16:00-16:45 | Everyone | Practical: Pangenome-based genotyping
-|| 16:55-17:00 | Everyone | Q&A, Day 2 Survey
-|| 17:00-17:05 | TBD | Closure
-|===
+// [options="header", cols="2,1,2,4"]
+// |===
+// |Day | Time | Speaker(s) | Topic
+// |Monday, May 12, 2026 | 09:30-09:45 | Everyone | Discussion about previous day activities
+// || 09:45-10:00 | Erik Garrison | Presentation: Sequence partitioning
+// || 10:00-10:30 | Everyone | Practical: Reference-guided partitioning
+// || *10:30-11:00* | *Everyone* | *Coffee break*
+// || 11:00-12:30 | Everyone | Practical: Reference-free partitioning
+// || *12:30-14:00* | *Everyone* | *Lunch (provided)*
+// || 14:00-14:30 | Andrea Guarracino | Presentation: Implicit pangenomics and pangenome genotyping
+// || 14:30-16:00 | Everyone | Practical: Implicit pangenome graphs
+// || *16:00-16:30* | *Everyone* | *Coffee break*
+// || 16:00-16:45 | Everyone | Practical: Pangenome-based genotyping
+// || 16:55-17:00 | Everyone | Q&A, Day 2 Survey
+// || 17:00-17:05 | TBD | Closure
+// |===
 
 === Conference
 
-*Time:* Tuesday, 13 May 2025 +
+*Time:* Wednesday, 13 May 2026 +
 
 *Place*: link:https://www.google.com/maps/place/930+Madison+Ave,+Memphis,+TN+38103/@35.1405526,-90.0321798,17z/data=!3m1!4b1!4m6!3m5!1s0x87d57e65083437ab:0x975bb3c7cbb47cf0!8m2!3d35.1405526!4d-90.0296049!16s%2Fg%2F11c26jf2ws?entry=ttu[930 Madison Ave, Freeman Auditorium at the Hamilton Eye Institutee, 3rd floor]
 
-[options="header", cols="2,2,5,2"]
-|===
-|Chair | Time | Talk | Speaker
+// [options="header", cols="2,2,5,2"]
+// |===
+// |Chair | Time | Talk | Speaker
 
-|| 09:25 - 09:30 | Conference Opening | link:https://www.uthsc.edu/faculty/profile/?netid=rwilli10/[Robert Williams]
+// || 09:25 - 09:30 | Conference Opening | link:https://www.uthsc.edu/faculty/profile/?netid=rwilli10/[Robert Williams]
 
-|link:https://andreaguarracino.github.io/[Andrea Guarracino] | 09:30 - 10:00 | Visualize Whole Genome Multiple Sequence Alignments in NCBI’s New Multiple Comparative Genome Viewer (MCGV) | Sanjida Rangwala
-|| 10:00 - 10:30 | PangyPlot: An Interactive Graph Viewer Designed for Reference Pangenomes | Scott Mastromatteo
-|| 10:30 - 11:00 | Novel Chromosomal Rearrangements and Their Role in Speciation in Primates | Brooklynn Scott
-|| *11:00 - 11:30* | *Coffee break* | *Coffee*
+// |link:https://andreaguarracino.github.io/[Andrea Guarracino] | 09:30 - 10:00 | Visualize Whole Genome Multiple Sequence Alignments in NCBI’s New Multiple Comparative Genome Viewer (MCGV) | Sanjida Rangwala
+// || 10:00 - 10:30 | PangyPlot: An Interactive Graph Viewer Designed for Reference Pangenomes | Scott Mastromatteo
+// || 10:30 - 11:00 | Novel Chromosomal Rearrangements and Their Role in Speciation in Primates | Brooklynn Scott
+// || *11:00 - 11:30* | *Coffee break* | *Coffee*
 
-| link:https://scholar.google.com/citations?user=m_vTR7YAAAAJ&hl=en/[Jan-Niklas Schmelzle] | 11:30 - 12:00 | Pangenome graph resolves the dynamic evolution of the plant immune system | Gautam Shirsekar
-|| 12:00 - 12:30 | Diverse graph-based approaches for complex collections of plant genomes | Avril Harder
-|| 12:30 - 13:00 | Integrating genetic ancestry, environmental exposure and health equity | Vincenza Colonna
-|| *13:00 - 14:00* | *Lunch (provided)* | *Food*
+// | link:https://scholar.google.com/citations?user=m_vTR7YAAAAJ&hl=en/[Jan-Niklas Schmelzle] | 11:30 - 12:00 | Pangenome graph resolves the dynamic evolution of the plant immune system | Gautam Shirsekar
+// || 12:00 - 12:30 | Diverse graph-based approaches for complex collections of plant genomes | Avril Harder
+// || 12:30 - 13:00 | Integrating genetic ancestry, environmental exposure and health equity | Vincenza Colonna
+// || *13:00 - 14:00* | *Lunch (provided)* | *Food*
 
-|link:https://www.linkedin.com/in/shelbysolomondarnell/?originalSubdomain=ke[Shelby Solomon Darnell] | 14:00 - 14:30 | Efficient Grammar Compression via RLZ-based RePair | Rahul Varki
-|| 14:30 - 15:00 | Disentangling reticulate evolution in Mediterranean Wall Lizards with a super pangenome | Natalia Zajac
-|| 15:00 - 15:05 | Conference Closing | Vincenza Colonna
-|===
+// |link:https://www.linkedin.com/in/shelbysolomondarnell/?originalSubdomain=ke[Shelby Solomon Darnell] | 14:00 - 14:30 | Efficient Grammar Compression via RLZ-based RePair | Rahul Varki
+// || 14:30 - 15:00 | Disentangling reticulate evolution in Mediterranean Wall Lizards with a super pangenome | Natalia Zajac
+// || 15:00 - 15:05 | Conference Closing | Vincenza Colonna
+// |===
 
 === Biohackathon
 
-*Time:* Wednesday-Thursday, 14th-15th May 2025 +
+*Time:* Thursday-Friday, 14th-15th May 2026 +
 
 *Place:* link:https://maps.app.goo.gl/QpQgUyRyjzjxP1vM9[Room 101, UTHSC Translational Research Science Building]
 
-[options="header", cols="2,1,2,4"]
-|===
-|Day | Time | Speaker(s) | Topic
+// [options="header", cols="2,1,2,4"]
+// |===
+// |Day | Time | Speaker(s) | Topic
 
-|Wednesday, May 14, 2025 | 09:30-10:30 | Everyone | Hacking
-|| 10:30-11:00 | Everyone | Coffee break
-|| 11:00-12:30 | Everyone | Hacking
-|| *12:30-14:30* | *Everyone* | *Lunch*
-|| 14:30-15:30 | Everyone | Hacking
-|| 15:30-16:00 | Everyone | Coffee break
-|| 16:00-17:00 | Everyone | Hacking
-|===
+// |Wednesday, May 14, 2026 | 09:30-10:30 | Everyone | Hacking
+// || 10:30-11:00 | Everyone | Coffee break
+// || 11:00-12:30 | Everyone | Hacking
+// || *12:30-14:30* | *Everyone* | *Lunch*
+// || 14:30-15:30 | Everyone | Hacking
+// || 15:30-16:00 | Everyone | Coffee break
+// || 16:00-17:00 | Everyone | Hacking
+// |===
 
-[options="header", cols="2,1,2,4"]
-|===
-|Day | Time | Speaker(s) | Topic
-|Thursday, May 15, 2025 | 09:30-10:30 | Everyone | Hacking
-|| 10:30-11:00 | Everyone | Coffee break
-|| 11:00-12:30 | Everyone | Hacking
-|| *12:30-14:30* | *Everyone* | *Lunch*
-|| 14:30-15:30 | Everyone | Hacking
-|| 15:30-16:00 | Everyone | Coffee break
-|| 16:00-17:00 | Everyone | Hacking
-|===
+// [options="header", cols="2,1,2,4"]
+// |===
+// |Day | Time | Speaker(s) | Topic
+// |Thursday, May 15, 2026 | 09:30-10:30 | Everyone | Hacking
+// || 10:30-11:00 | Everyone | Coffee break
+// || 11:00-12:30 | Everyone | Hacking
+// || *12:30-14:30* | *Everyone* | *Lunch*
+// || 14:30-15:30 | Everyone | Hacking
+// || 15:30-16:00 | Everyone | Coffee break
+// || 16:00-17:00 | Everyone | Hacking
+// |===
 
 
 == *Registration and Practical Information*
 
-*CLOSED*
+*TBD*
 
 ////
 
@@ -332,8 +336,8 @@ Registration includes access to: all lectures and practical sessions, all course
 
 The cost includes all expenses associated with the event, with lunches, coffee, and snacks. In certain circumstances, we can waive the fees.
 
-- Academic - $200, with financial support if needed
-- Industry - $400
+- Academic - $250, with financial support if needed
+- Industry - $500
 
 === Selection criteria
 
