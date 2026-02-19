@@ -6,8 +6,7 @@
 
 Computational pangenomics course, conference, and biohackathon in Memphis, TN, exploring the cutting edge of pangenomes, biology, methods, software, and artificial intelligence (AI).
 
-image::images/DRB1-3123.fa.gz.pggb-E-s5000-l15000-p80-n10-a0-K16-k8-w50000-j5000-e5000-I0-R0-N.smooth.chop.og.lay.draw_mqc.CROP.png[400]
-image::images/bridge.png[400]
+image::images/trippy-bridge.png[800]
 
 
 == *Important Dates*
@@ -346,11 +345,11 @@ Selection of participants will be based on:
 
 Fulfillment of these conditions by participants will be assessed through the registration form.
 
-[cols=">a,<a,<a", frame=none, grid=none]
+[cols="1a,1a,1a", frame=none, grid=none]
 |===
-| image::images/memphis.jpg[height=300]
-|image::images/men.jpg[height=300]
-| image::images/bridge.jpg[height=300]
+| image::images/memphis.jpg[]
+|image::images/men.jpg[]
+| image::images/bridge.jpg[]
 |===
 
 https://www.memphistravel.com/sports-outdoors?gclid=Cj0KCQiAgOefBhDgARIsAMhqXA4Gt_kloBAAqe5LDWNW3199TI8DzRrUo4fCqSQ_cKLkRPd4xv46TUgaAt4WEALw_wcB[Explore Memphis]
@@ -361,3 +360,5 @@ https://www.memphistravel.com/sports-outdoors?gclid=Cj0KCQiAgOefBhDgARIsAMhqXA4G
 == *Contact*
 
 - mailto:aguarracino@tgen.org[aguarracino@tgen.org]
+
+image::images/DRB1-3123.fa.gz.pggb-E-s5000-l15000-p80-n10-a0-K16-k8-w50000-j5000-e5000-I0-R0-N.smooth.chop.og.lay.draw_mqc.CROP.png[800]
