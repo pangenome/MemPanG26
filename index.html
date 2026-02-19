@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.16">
+<meta name="generator" content="Asciidoctor 2.0.23">
 <title>MemPanG26</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -84,10 +84,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
-ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
-ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -140,7 +140,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #content::before{content:none}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
-#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
 #header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
 #header .details span:first-child{margin-left:-.125em}
 #header .details span.email a{color:rgba(0,0,0,.85)}
@@ -162,6 +162,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #toctitle{color:#7a2518;font-size:1.2em}
 @media screen and (min-width:768px){#toctitle{font-size:1.375em}
 body.toc2{padding-left:15em;padding-right:0}
+body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
 #toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
 #toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
 #toc.toc2>ul{font-size:.9em;margin-bottom:0}
@@ -193,7 +194,8 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
 details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
 details{margin-left:1.25rem}
-details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;-webkit-tap-highlight-color:transparent}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
+details>summary::-webkit-details-marker{display:none}
 details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
 details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
 details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
@@ -207,13 +209,10 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
 .exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
-.exampleblock>.content>:first-child{margin-top:0}
-.exampleblock>.content>:last-child{margin-bottom:0}
 .sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
-.sidebarblock>:first-child{margin-top:0}
-.sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
-.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
 .literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
@@ -235,9 +234,8 @@ pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
 table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
 table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
 table.linenotable td.code{padding-left:.75em}
-table.linenotable td.linenos{border-right:1px solid;opacity:.35;padding-right:.5em}
-pre.pygments .lineno{border-right:1px solid;opacity:.35;display:inline-block;margin-right:.75em}
-pre.pygments .lineno::before{content:"";margin-right:-.125em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
 .quoteblock{margin:0 1em 1.25em 1.5em;display:table}
 .quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
 .quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
@@ -274,7 +272,7 @@ table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-c
 table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
 table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
 table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
-table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
+table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
 th.halign-left,td.halign-left{text-align:left}
 th.halign-right,td.halign-right{text-align:right}
 th.halign-center,td.halign-center{text-align:center}
@@ -290,10 +288,11 @@ ol{margin-left:1.75em}
 ul li ol{margin-left:1.5em}
 dl dd{margin-left:1.125em}
 dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
-ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
 ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
 ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
 ul.unstyled,ol.unstyled{margin-left:0}
+li>p:empty:only-child::before{content:"";display:inline-block}
 ul.checklist>li>p:first-child{margin-left:-1em}
 ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
 ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
@@ -329,15 +328,13 @@ a.image{text-decoration:none;display:inline-block}
 a.image object{pointer-events:none}
 sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
 sup.footnote a,sup.footnoteref a{text-decoration:none}
-sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
 #footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
 #footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
 #footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
 #footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
 #footnotes .footnote:last-of-type{margin-bottom:0}
 #content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
-.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
-.gist .file-data>table td.line-data{width:99%}
 div.unbreakable{page-break-inside:avoid}
 .big{font-size:larger}
 .small{font-size:smaller}
@@ -394,7 +391,7 @@ b.conum *{color:inherit!important}
 dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
 h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
 p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
 .exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
@@ -443,8 +440,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc2">
 <div id="toctitle">MemPanG26</div>
 <ul class="sectlevel1">
-<li><a href="#_to_confirm_important_dates"><strong>TO CONFIRM: Important Dates</strong></a></li>
-<li><a href="#_to_confirm_venues"><strong>TO CONFIRM: Venues</strong></a>
+<li><a href="#_important_dates"><strong>Important Dates</strong></a></li>
+<li><a href="#_open_call_for_speakers"><strong>OPEN CALL FOR SPEAKERS</strong></a></li>
+<li><a href="#_venues"><strong>Venues</strong></a>
 <ul class="sectlevel2">
 <li><a href="#_practical_course_workshop">Practical course / Workshop</a></li>
 <li><a href="#_conference">Conference</a></li>
@@ -458,7 +456,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_about_the_biohackathon"><strong>About the biohackathon</strong></a></li>
 <li><a href="#_people"><strong>People</strong></a>
 <ul class="sectlevel2">
-<li><a href="#_practical_course_workshop_instructors">Practical Course / Workshop Instructors</a></li>
+<li><a href="#_instructors">Instructors</a></li>
 <li><a href="#_helpers">Helpers</a></li>
 <li><a href="#_organizers">Organizers</a></li>
 </ul>
@@ -499,7 +497,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_to_confirm_important_dates"><strong>TO CONFIRM: Important Dates</strong></h2>
+<h2 id="_important_dates"><strong>Important Dates</strong></h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -507,10 +505,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Practical course/Conference/Biohackathon Registration Deadline: <strong>1st April 2026</strong></p>
 </li>
 <li>
-<p>Selected Participant will be notified by: <strong>7th April 2026</strong></p>
+<p>Selected participants will be notified by: <strong>7th April 2026</strong></p>
 </li>
 <li>
-<p>Payment Deadline: <strong>21th April 2026</strong></p>
+<p>Payment Deadline: <strong>21st April 2026</strong></p>
 </li>
 <li>
 <p>Practical course / Workshop: <strong>11th-12th May 2026</strong></p>
@@ -526,7 +524,41 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_to_confirm_venues"><strong>TO CONFIRM: Venues</strong></h2>
+<h2 id="_open_call_for_speakers"><strong>OPEN CALL FOR SPEAKERS</strong></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We invite experts and enthusiasts in pangenome research to present at MemPanG26.
+This event is scheduled for May 13th, 2026, and aims to delve into the multifaceted world of pangenome research.
+The submission deadline for talk proposals is <strong>April 15th, 2026</strong>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Focus Areas:</strong> Our conference will cover a broad range of topics, including but not limited to, methods in pangenome research, genome assembly, data visualization, artificial intelligence (AI), and collaborative projects.</p>
+</div>
+<div class="paragraph">
+<p><strong>Diverse Perspectives:</strong> We are looking for speakers who can provide insights from different species contexts and who can discuss topics that lie at the intersection of pangenome methods and biology. We are particularly interested in hearing about your unique work and perspectives in pangenome research.</p>
+</div>
+<div class="paragraph">
+<p><strong>Duration:</strong> Each talk should be 20 minutes, followed by a Q&amp;A session, amounting to a total of 25 minutes.</p>
+</div>
+<div class="paragraph">
+<p><strong>Submission:</strong> We kindly request you to forward the title and abstract of your talk upon confirmation of your participation.</p>
+</div>
+<div class="paragraph">
+<p><strong>Location:</strong> The event will be held in Memphis.</p>
+</div>
+<div class="paragraph">
+<p><strong>Conference pre-registration for speakers:</strong> <a href="https://docs.google.com/forms/d/e/1FAIpQLScxnkkHBS5Fpzzsyx8WQ5Ej1NPJzU4BCOGGTd0X_bimHUtDTg/viewform?usp=publish-editor" class="bare">https://docs.google.com/forms/d/e/1FAIpQLScxnkkHBS5Fpzzsyx8WQ5Ej1NPJzU4BCOGGTd0X_bimHUtDTg/viewform?usp=publish-editor</a></p>
+</div>
+<div class="paragraph">
+<p>We look forward to an engaging day of discussion!</p>
+</div>
+<div class="paragraph">
+<p>MemPanG26 organizers</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_venues"><strong>Venues</strong></h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_practical_course_workshop">Practical course / Workshop</h3>
@@ -553,7 +585,7 @@ United States<br>
 <div class="sect2">
 <h3 id="_biohackathon">Biohackathon</h3>
 <div class="paragraph">
-<p><strong>Room 101, UTHSC Translational Research Science Building</strong><br>
+<p><strong>Room 100 and 101, UTHSC Translational Research Science Building</strong><br>
 71 S Manassas St,<br>
 Memphis, TN 38103<br>
 United States<br>
@@ -603,7 +635,7 @@ United States<br>
 <h2 id="_about_the_practical_course_workshop"><strong>About the practical course / workshop</strong></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Sunday, May 11, 2026 - Monday, May 12, 2026</strong><br>
+<p><strong>Monday, May 11, 2026 - Tuesday, May 12, 2026</strong><br>
 The use of a single reference genome in bioinformatics can lead to reference bias and miss important information about genome variability and relationships. New assembly methods have made it easier to generate high-quality complete genome assemblies, and using a pangenome graph that expresses many genomes and their mutual alignment can help address these issues.
 This practical course / workshop will focus on building such graphs from whole genome assemblies and using them in various downstream applications in comparative genomics, evolution, variation analysis, sequence alignment, and phenotype association.</p>
 </div>
@@ -617,7 +649,7 @@ By the end of the practical course / workshop, participants will have a strong u
 <h2 id="_about_the_conference"><strong>About the conference</strong></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Tuesday, May 13, 2026</strong><br>
+<p><strong>Wednesday, May 13, 2026</strong><br>
 We will gather for an in-person conference on the day after the practical course / workshop.
 This will bring together practical course / workshop participants and virtual and in-person speakers who are actively working on diverse aspects of pangenome research.
 The virtual meeting will be open to the public.
@@ -630,11 +662,11 @@ We expect to draw speakers from a diverse set of species contexts.</p>
 <h2 id="_about_the_biohackathon"><strong>About the biohackathon</strong></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Wednesday, May 14, 2026 - Thursday, May 15, 2026</strong><br></p>
+<p><strong>Thursday, May 14, 2026 - Friday, May 15, 2026</strong><br></p>
 </div>
 <div class="paragraph">
-<p>We have a focus on software.
-We will work with/on pangenomic tools (such as <a href="https://github.com/pangenome/pggb/">PGGB</a>, <a href="https://github.com/waveygang/wfmash/">WFMASH</a>,  <a href="https://github.com/pangenome/impg/">IMPG</a>,<a href="https://github.com/ekg/seqwish/">SEQWISH</a>, <a href="https://github.com/pangenome/odgi/">ODGI</a>, <a href="https://github.com/pangenome/smoothxg/">SMOOTHXG</a>, <a href="https://github.com/vgteam/vg">VG</a>, <a href="https://github.com/vcflib/vcflib/">VCFLIB</a>, <a href="https://github.com/genetics-statistics/GEMMA/">GEMMA</a>) with software project leadership.
+<p>The biohackathon focuses on software development.
+We will work with/on pangenomic tools (such as <a href="https://github.com/pangenome/pggb/">PGGB</a>, <a href="https://github.com/waveygang/wfmash/">WFMASH</a>, <a href="https://github.com/pangenome/impg/">IMPG</a>, <a href="https://github.com/ekg/seqwish/">SEQWISH</a>, <a href="https://github.com/pangenome/odgi/">ODGI</a>, <a href="https://github.com/pangenome/smoothxg/">SMOOTHXG</a>, <a href="https://github.com/vgteam/vg">VG</a>, <a href="https://github.com/vcflib/vcflib/">VCFLIB</a>, <a href="https://github.com/genetics-statistics/GEMMA/">GEMMA</a>) with software project leadership.
 <strong>You are welcome to bring your own projects!</strong></p>
 </div>
 </div>
@@ -643,7 +675,7 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <h2 id="_people"><strong>People</strong></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_practical_course_workshop_instructors">Practical Course / Workshop Instructors</h3>
+<h3 id="_instructors">Instructors</h3>
 <div class="sect3">
 <h4 id="_erik_garrison_associate_professor">Erik Garrison - Associate Professor</h4>
 <div class="paragraph">
@@ -657,11 +689,11 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <div class="sect3">
 <h4 id="_andrea_guarracino_assistant_professor">Andrea Guarracino - Assistant Professor</h4>
 <div class="paragraph">
-<div class="title"><span class="purple">University of Tennessee Health Science Center, Memphis, TN, US</span></div>
-<p><span class="image right"><img src="images/andrea.jpeg" alt="erik" width="200"></span> Computer scientist dedicated to developing and applying new methods to analyze pangenomes.</p>
+<div class="title"><span class="purple">Translational Genomics Research Institute, Phoenix, AZ, US</span></div>
+<p><span class="image right"><img src="images/andrea.jpeg" alt="andrea" width="200"></span> Computer scientist dedicated to applying pangenomics to studying genome variation and disease.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span> <a href="https://andreaguarracino.github.io/">Website</a></p>
+<p><span class="image"><a class="image" href="https://guarracinolab.github.io/"><img src="https://guarracinolab.github.io/images/GUARRACINOxLAB.png" alt="lab" width="150"></a></span> <a href="https://guarracinolab.github.io/">Lab Website</a></p>
 </div>
 <hr>
 </div>
@@ -675,13 +707,13 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://andreaguarracino.github.io/">Andrea Guarracino</a>, University of Tennessee Health Science Center, Memphis, TN, US</p>
+<p><a href="https://andreaguarracino.github.io/">Andrea Guarracino</a>, Translational Genomics Research Institute, Phoenix, AZ, US</p>
 </li>
 <li>
 <p><a href="http://hypervolu.me/~erik/erik_garrison.html">Erik Garrison</a>, University of Tennessee Health Science Center, Memphis, TN, US</p>
 </li>
 <li>
-<p><a href="https://github.com/Flavia95">Flavia Villani</a>, University of Tennessee Health Science Center, Memphis, TN, US</p>
+<p><a href="https://github.com/Flavia95">Flavia Villani</a>, Translational Genomics Research Institute, Phoenix, AZ, US</p>
 </li>
 <li>
 <p><a href="https://thebird.nl/">Pjotr Prins</a>, University of Tennessee Health Science Center, Memphis, TN, US</p>
@@ -695,10 +727,11 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 </ul>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="images/UTHSC.png" alt="uthsc" width="300"></span></p>
+<p><span class="image"><img src="images/UTHSC.png" alt="uthsc" width="300"></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="image"><img src="https://guarracinolab.github.io/images/tgen.png" alt="tgen" width="160"></span></p>
 </div>
 <div class="paragraph">
-<p>University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics</p>
+<p>University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics<br>
+Translational Genomics Research Institute, Bioinnovation and Genome Sciences Division</p>
 </div>
 </div>
 </div>
@@ -721,7 +754,7 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <p><strong>Time:</strong> Wednesday, 13 May 2026<br></p>
 </div>
 <div class="paragraph">
-<p><strong>Place</strong>: <a href="https://www.google.com/maps/place/930+Madison+Ave,+Memphis,+TN+38103/@35.1405526,-90.0321798,17z/data=!3m1!4b1!4m6!3m5!1s0x87d57e65083437ab:0x975bb3c7cbb47cf0!8m2!3d35.1405526!4d-90.0296049!16s%2Fg%2F11c26jf2ws?entry=ttu">930 Madison Ave, Freeman Auditorium at the Hamilton Eye Institutee, 3rd floor</a></p>
+<p><strong>Place</strong>: <a href="https://www.google.com/maps/place/930+Madison+Ave,+Memphis,+TN+38103/@35.1405526,-90.0321798,17z/data=!3m1!4b1!4m6!3m5!1s0x87d57e65083437ab:0x975bb3c7cbb47cf0!8m2!3d35.1405526!4d-90.0296049!16s%2Fg%2F11c26jf2ws?entry=ttu">930 Madison Ave, Freeman Auditorium at the Hamilton Eye Institute, 3rd floor</a></p>
 </div>
 </div>
 <div class="sect2">
@@ -730,7 +763,7 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <p><strong>Time:</strong> Thursday-Friday, 14th-15th May 2026<br></p>
 </div>
 <div class="paragraph">
-<p><strong>Place:</strong> <a href="https://maps.app.goo.gl/QpQgUyRyjzjxP1vM9">Room 101, UTHSC Translational Research Science Building</a></p>
+<p><strong>Place:</strong> <a href="https://maps.app.goo.gl/QpQgUyRyjzjxP1vM9">Room 100 and 101, UTHSC Translational Research Science Building</a></p>
 </div>
 </div>
 </div>
@@ -739,7 +772,10 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <h2 id="_registration_and_practical_information"><strong>Registration and Practical Information</strong></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>TBD</strong></p>
+<p><strong>Conference pre-registration for speakers:</strong> <a href="https://docs.google.com/forms/d/e/1FAIpQLScxnkkHBS5Fpzzsyx8WQ5Ej1NPJzU4BCOGGTd0X_bimHUtDTg/viewform?usp=publish-editor" class="bare">https://docs.google.com/forms/d/e/1FAIpQLScxnkkHBS5Fpzzsyx8WQ5Ej1NPJzU4BCOGGTd0X_bimHUtDTg/viewform?usp=publish-editor</a></p>
+</div>
+<div class="paragraph">
+<p><strong>Registration for event attendees:</strong> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkpU3vpH_Mh8H43E5qbBOndkPYEhcK7bFWvC1inNjwefpgmQ/viewform?usp=publish-editor" class="bare">https://docs.google.com/forms/d/e/1FAIpQLSdkpU3vpH_Mh8H43E5qbBOndkPYEhcK7bFWvC1inNjwefpgmQ/viewform?usp=publish-editor</a></p>
 </div>
 <div class="paragraph">
 <p>Registration includes access to: all lectures and practical sessions, all course materials.</p>
@@ -777,7 +813,7 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <p>familiarity with genomics data formats (e.g., FASTA, VCF, BED, &#8230;&#8203;) is a plus.</p>
 </li>
 <li>
-<p>impact of the practical course / workshop for the participant and his/her research group.</p>
+<p>impact of the practical course / workshop for the participant and their research group.</p>
 </li>
 <li>
 <p>stage of the research project: priority will be given to participants with data already available and ready to be analyzed (participants data will not be analyzed during the practical course / workshop).</p>
@@ -797,24 +833,24 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <tr>
 <td class="tableblock halign-right valign-top"><div class="content"><div class="imageblock">
 <div class="content">
-<img src="images/memphis.jpg" alt="memphis" width="300" height="300">
+<img src="images/memphis.jpg" alt="memphis" height="300">
 </div>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock">
 <div class="content">
-<img src="images/men.jpg" alt="men" width="600" height="400">
+<img src="images/men.jpg" alt="men" height="300">
 </div>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock">
 <div class="content">
-<img src="images/bridge.jpg" alt="bridge" width="300" height="300">
+<img src="images/bridge.jpg" alt="bridge" height="300">
 </div>
 </div></div></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p><a href="https://www.memphistravel.com/sports-outdoors?gclid=Cj0KCQiAgOefBhDgARIsAMhqXA4Gt_kloBAAqe5LDWNW3199TI8DzRrUo4fCqSQ_cKLkRPd4xv46TUgaAt4WEALw_wcB">memphistravel</a></p>
+<p><a href="https://www.memphistravel.com/sports-outdoors?gclid=Cj0KCQiAgOefBhDgARIsAMhqXA4Gt_kloBAAqe5LDWNW3199TI8DzRrUo4fCqSQ_cKLkRPd4xv46TUgaAt4WEALw_wcB">Explore Memphis</a></p>
 </div>
 <div class="paragraph">
 <p><br>
@@ -829,7 +865,7 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 <div class="ulist">
 <ul>
 <li>
-<p><a href="mailto:aguarra1@uthsc.edu">aguarra1@uthsc.edu</a></p>
+<p><a href="mailto:aguarracino@tgen.org">aguarracino@tgen.org</a></p>
 </li>
 </ul>
 </div>
@@ -838,7 +874,7 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-09-03 14:23:19 +0200
+Last updated 2026-02-19 12:02:22 -0700
 </div>
 </div>
 </body>

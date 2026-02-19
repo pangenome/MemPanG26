@@ -1,6 +1,6 @@
-= *MemPanG24 - Pangenomic abstract examples*
+= *MemPanG26 - Pangenomic abstract examples*
 :figure-caption!:
-:toc-title: MemPanG25
+:toc-title: MemPanG26
 :toc: left
 :toclevels: 2
 
@@ -89,4 +89,4 @@ We solve this problem, implement it, and demonstrate that this improves the cons
 
 This is joint work with Marco Oliva (PhD candidate at the University of Florida) and Travis Gagie at Dalhousie University.
 
-== link:https://pangenome.github.io/MemPanG25/[MemPanG25 details]
+== link:https://pangenome.github.io/MemPanG26/[MemPanG26 details]

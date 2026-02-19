@@ -10,39 +10,38 @@ image::images/DRB1-3123.fa.gz.pggb-E-s5000-l15000-p80-n10-a0-K16-k8-w50000-j5000
 image::images/bridge.png[400]
 
 
-== *TO CONFIRM: Important Dates*
+== *Important Dates*
 
 - Practical course/Conference/Biohackathon Registration Deadline: *1st April 2026*
-- Selected Participant will be notified by: *7th April 2026*
-- Payment Deadline: *21th April 2026*
+- Selected participants will be notified by: *7th April 2026*
+- Payment Deadline: *21st April 2026*
 - Practical course / Workshop: *11th-12th May 2026*
 - Conference: *13th May 2026*
 - Biohackathon: *14th-15th May 2026*
-////
-== *OPEN CALL FOR SPEAKERS - MemPanG26*
 
-We are thrilled to announce an open invitation to experts and enthusiasts in the field of pangenome research to be a part of our upcoming MemPanG26.
-This significant event is scheduled for May 13th, 2026, and aims to delve into the multifaceted world of pangenome research.
+== *OPEN CALL FOR SPEAKERS*
+We invite experts and enthusiasts in pangenome research to present at MemPanG26.
+This event is scheduled for May 13th, 2026, and aims to delve into the multifaceted world of pangenome research.
 The submission deadline for talk proposals is *April 15th, 2026*.
 
 *Focus Areas:* Our conference will cover a broad range of topics, including but not limited to, methods in pangenome research, genome assembly, data visualization, artificial intelligence (AI), and collaborative projects.
 
 *Diverse Perspectives:* We are looking for speakers who can provide insights from different species contexts and who can discuss topics that lie at the intersection of pangenome methods and biology. We are particularly interested in hearing about your unique work and perspectives in pangenome research.
 
-*Duration:* Each talk should be approximately 20 minutes, followed by a Q&A session, amounting to a total of 25 minutes.
+*Duration:* Each talk should be 20 minutes, followed by a Q&A session, amounting to a total of 25 minutes.
 
-*Submission:* We kindly request you to https://docs.google.com/forms/d/e/1FAIpQLSe2mnJ_kZm_I2j5lIBoLGL-hLW4mxzHpphvWomLbsul4C8goA/viewform?usp=sf_link[forward the title and abstract of your talk] upon confirmation of your participation.
-You can see abstract examples at https://pangenome.github.io/MemPanG26/abstract_examples.html.
+*Submission:* We kindly request you to forward the title and abstract of your talk upon confirmation of your participation.
+// You can see abstract examples at https://pangenome.github.io/MemPanG26/abstract_examples.html.
 
 *Location:* The event will be held in Memphis.
 
-*Conference pre-registration for speakers:* https://docs.google.com/forms/d/e/1FAIpQLSe2mnJ_kZm_I2j5lIBoLGL-hLW4mxzHpphvWomLbsul4C8goA/viewform?usp=sf_link
+*Conference pre-registration for speakers:* https://docs.google.com/forms/d/e/1FAIpQLScxnkkHBS5Fpzzsyx8WQ5Ej1NPJzU4BCOGGTd0X_bimHUtDTg/viewform?usp=publish-editor
 
-Let's make this a fun day!
+We look forward to an engaging day of discussion!
 
 MemPanG26 organizers
-////
-== *TO CONFIRM: Venues*
+
+== *Venues*
 
 === Practical course / Workshop
 *Freeman Auditorium at the Hamilton Eye Institute* +
@@ -61,7 +60,7 @@ United States +
 -> https://www.google.com/maps/place/930+Madison+Ave,+Memphis,+TN+38103/@35.1405526,-90.0321798,17z/data=!3m1!4b1!4m6!3m5!1s0x87d57e65083437ab:0x975bb3c7cbb47cf0!8m2!3d35.1405526!4d-90.0296049!16s%2Fg%2F11c26jf2ws?entry=ttu[See the venue on the map]
 
 === Biohackathon
-*Room 101, UTHSC Translational Research Science Building* +
+*Room 100 and 101, UTHSC Translational Research Science Building* +
 71 S Manassas St, +
 Memphis, TN 38103 +
 United States +
@@ -83,7 +82,7 @@ If you stay in Downtown, the Medical District, South City, or New Chicago, you c
 
 == *About the practical course / workshop*
 
-*Sunday, May 11, 2026 - Monday, May 12, 2026* +
+*Monday, May 11, 2026 - Tuesday, May 12, 2026* +
 The use of a single reference genome in bioinformatics can lead to reference bias and miss important information about genome variability and relationships. New assembly methods have made it easier to generate high-quality complete genome assemblies, and using a pangenome graph that expresses many genomes and their mutual alignment can help address these issues.
 This practical course / workshop will focus on building such graphs from whole genome assemblies and using them in various downstream applications in comparative genomics, evolution, variation analysis, sequence alignment, and phenotype association.
 
@@ -92,7 +91,7 @@ By the end of the practical course / workshop, participants will have a strong u
 
 == *About the conference*
 
-*Tuesday, May 13, 2026* +
+*Wednesday, May 13, 2026* +
 We will gather for an in-person conference on the day after the practical course / workshop.
 This will bring together practical course / workshop participants and virtual and in-person speakers who are actively working on diverse aspects of pangenome research.
 The virtual meeting will be open to the public.
@@ -101,15 +100,15 @@ We expect to draw speakers from a diverse set of species contexts.
 
 == *About the biohackathon*
 
-*Wednesday, May 14, 2026 - Thursday, May 15, 2026* +
+*Thursday, May 14, 2026 - Friday, May 15, 2026* +
 
-We have a focus on software.
-We will work with/on pangenomic tools (such as link:https://github.com/pangenome/pggb/[PGGB], link:https://github.com/waveygang/wfmash/[WFMASH],  link:https://github.com/pangenome/impg/[IMPG],link:https://github.com/ekg/seqwish/[SEQWISH], link:https://github.com/pangenome/odgi/[ODGI], link:https://github.com/pangenome/smoothxg/[SMOOTHXG], link:https://github.com/vgteam/vg[VG], link:https://github.com/vcflib/vcflib/[VCFLIB], link:https://github.com/genetics-statistics/GEMMA/[GEMMA]) with software project leadership.
+The biohackathon focuses on software development.
+We will work with/on pangenomic tools (such as link:https://github.com/pangenome/pggb/[PGGB], link:https://github.com/waveygang/wfmash/[WFMASH], link:https://github.com/pangenome/impg/[IMPG], link:https://github.com/ekg/seqwish/[SEQWISH], link:https://github.com/pangenome/odgi/[ODGI], link:https://github.com/pangenome/smoothxg/[SMOOTHXG], link:https://github.com/vgteam/vg[VG], link:https://github.com/vcflib/vcflib/[VCFLIB], link:https://github.com/genetics-statistics/GEMMA/[GEMMA]) with software project leadership.
 *You are welcome to bring your own projects!*
 
 == *People*
 
-=== Practical Course / Workshop Instructors
+=== Instructors
 
 
 ==== Erik Garrison - Associate Professor
@@ -122,11 +121,11 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/ekg[GitHub]
 
 ==== Andrea Guarracino - Assistant Professor
 
-.[purple]#University of Tennessee Health Science Center, Memphis, TN, US#
+.[purple]#Translational Genomics Research Institute, Phoenix, AZ, US#
 
-image:images/andrea.jpeg[erik,200,role="right"] Computer scientist dedicated to developing and applying new methods to analyze pangenomes.
+image:images/andrea.jpeg[andrea,200,role="right"] Computer scientist dedicated to applying pangenomics to studying genome variation and disease.
 
-image:images/Octicons-mark-github.svg[git,30] https://andreaguarracino.github.io/[Website]
+image:https://guarracinolab.github.io/images/GUARRACINOxLAB.png[lab,150,link="https://guarracinolab.github.io/"] https://guarracinolab.github.io/[Lab Website]
 
 ////
 
@@ -205,18 +204,19 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[GitHub
 
 === Organizers
 
-- link:https://andreaguarracino.github.io/[Andrea Guarracino], University of Tennessee Health Science Center, Memphis, TN, US
+- link:https://andreaguarracino.github.io/[Andrea Guarracino], Translational Genomics Research Institute, Phoenix, AZ, US
 - link:http://hypervolu.me/~erik/erik_garrison.html[Erik Garrison], University of Tennessee Health Science Center, Memphis, TN, US
-- link:https://github.com/Flavia95[Flavia Villani], University of Tennessee Health Science Center, Memphis, TN, US
+- link:https://github.com/Flavia95[Flavia Villani], Translational Genomics Research Institute, Phoenix, AZ, US
 - link:https://thebird.nl/[Pjotr Prins], University of Tennessee Health Science Center, Memphis, TN, US
 - link:https://www.uthsc.edu/faculty/profile/?netid=vcolonna[Vincenza Colonna], University of Tennessee Health Science Center, Memphis, TN, US
 - link:https://uthsc.edu/search/detail.php?id=T100344325[Tamara Brock], University of Tennessee Health Science Center, Memphis, TN, US
 // - link:https://aruni.systemreboot.net[Arun Isaac], University College London, London, UK
 // - link:https://www.christinaboucher.com/[Christina Boucher], University of Florida, Gainesville, FL, US
 
-image:images/UTHSC.png[uthsc,300]
+image:images/UTHSC.png[uthsc,300] {nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp} image:https://guarracinolab.github.io/images/tgen.png[tgen,160]
 
-University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics
+University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics +
+Translational Genomics Research Institute, Bioinnovation and Genome Sciences Division
 
 == *Program*
 
@@ -230,7 +230,7 @@ University of Tennessee Health Science Center, Department of Genetics, Genomics 
 // |===
 // |Day | Time | Speaker(s) | Topic
 
-// |Sunday, May 11, 2026 | 09:30-10:00  | Erik Garrison | Presentation: Introduction to pangenomics
+// |Monday, May 11, 2026 | 09:30-10:00  | Erik Garrison | Presentation: Introduction to pangenomics
 // || 10:00-10:30 | Everyone | Practical: Build your first pangenome graphs
 // || *10:30-11:00* | *Everyone* | *Coffee break*
 // || 11:00-12:30 | Everyone | Practical: PGGB
@@ -245,7 +245,7 @@ University of Tennessee Health Science Center, Department of Genetics, Genomics 
 // [options="header", cols="2,1,2,4"]
 // |===
 // |Day | Time | Speaker(s) | Topic
-// |Monday, May 12, 2026 | 09:30-09:45 | Everyone | Discussion about previous day activities
+// |Tuesday, May 12, 2026 | 09:30-09:45 | Everyone | Discussion about previous day activities
 // || 09:45-10:00 | Erik Garrison | Presentation: Sequence partitioning
 // || 10:00-10:30 | Everyone | Practical: Reference-guided partitioning
 // || *10:30-11:00* | *Everyone* | *Coffee break*
@@ -263,7 +263,7 @@ University of Tennessee Health Science Center, Department of Genetics, Genomics 
 
 *Time:* Wednesday, 13 May 2026 +
 
-*Place*: link:https://www.google.com/maps/place/930+Madison+Ave,+Memphis,+TN+38103/@35.1405526,-90.0321798,17z/data=!3m1!4b1!4m6!3m5!1s0x87d57e65083437ab:0x975bb3c7cbb47cf0!8m2!3d35.1405526!4d-90.0296049!16s%2Fg%2F11c26jf2ws?entry=ttu[930 Madison Ave, Freeman Auditorium at the Hamilton Eye Institutee, 3rd floor]
+*Place*: link:https://www.google.com/maps/place/930+Madison+Ave,+Memphis,+TN+38103/@35.1405526,-90.0321798,17z/data=!3m1!4b1!4m6!3m5!1s0x87d57e65083437ab:0x975bb3c7cbb47cf0!8m2!3d35.1405526!4d-90.0296049!16s%2Fg%2F11c26jf2ws?entry=ttu[930 Madison Ave, Freeman Auditorium at the Hamilton Eye Institute, 3rd floor]
 
 // [options="header", cols="2,2,5,2"]
 // |===
@@ -290,13 +290,13 @@ University of Tennessee Health Science Center, Department of Genetics, Genomics 
 
 *Time:* Thursday-Friday, 14th-15th May 2026 +
 
-*Place:* link:https://maps.app.goo.gl/QpQgUyRyjzjxP1vM9[Room 101, UTHSC Translational Research Science Building]
+*Place:* link:https://maps.app.goo.gl/QpQgUyRyjzjxP1vM9[Room 100 and 101, UTHSC Translational Research Science Building]
 
 // [options="header", cols="2,1,2,4"]
 // |===
 // |Day | Time | Speaker(s) | Topic
 
-// |Wednesday, May 14, 2026 | 09:30-10:30 | Everyone | Hacking
+// |Thursday, May 14, 2026 | 09:30-10:30 | Everyone | Hacking
 // || 10:30-11:00 | Everyone | Coffee break
 // || 11:00-12:30 | Everyone | Hacking
 // || *12:30-14:30* | *Everyone* | *Lunch*
@@ -308,7 +308,7 @@ University of Tennessee Health Science Center, Department of Genetics, Genomics 
 // [options="header", cols="2,1,2,4"]
 // |===
 // |Day | Time | Speaker(s) | Topic
-// |Thursday, May 15, 2026 | 09:30-10:30 | Everyone | Hacking
+// |Friday, May 15, 2026 | 09:30-10:30 | Everyone | Hacking
 // || 10:30-11:00 | Everyone | Coffee break
 // || 11:00-12:30 | Everyone | Hacking
 // || *12:30-14:30* | *Everyone* | *Lunch*
@@ -320,15 +320,9 @@ University of Tennessee Health Science Center, Department of Genetics, Genomics 
 
 == *Registration and Practical Information*
 
-*TBD*
+*Conference pre-registration for speakers:* https://docs.google.com/forms/d/e/1FAIpQLScxnkkHBS5Fpzzsyx8WQ5Ej1NPJzU4BCOGGTd0X_bimHUtDTg/viewform?usp=publish-editor
 
-////
-
-*Conference pre-registration for speakers:* https://docs.google.com/forms/d/e/1FAIpQLScqCwRYuMFyZceYa7skzXrZ5feg9Y5nfURVs_d_Ug7K_BY3pQ/viewform?usp=header
-
-*Registration for event attendees:* https://docs.google.com/forms/d/e/1FAIpQLScsS1eLIfaYFTmXpH8dUaGtWpud6HWEWKdStdahbMvuqiW9iQ/viewform?usp=header
-
-////
+*Registration for event attendees:* https://docs.google.com/forms/d/e/1FAIpQLSdkpU3vpH_Mh8H43E5qbBOndkPYEhcK7bFWvC1inNjwefpgmQ/viewform?usp=publish-editor
 
 Registration includes access to: all lectures and practical sessions, all course materials.
 
@@ -347,23 +341,23 @@ Selection of participants will be based on:
 
 - good knowledge of Linux operating system and basic shell commands. This will be a mandatory prerequisite.
 - familiarity with genomics data formats (e.g., FASTA, VCF, BED, ...) is a plus.
-- impact of the practical course / workshop for the participant and his/her research group.
+- impact of the practical course / workshop for the participant and their research group.
 - stage of the research project: priority will be given to participants with data already available and ready to be analyzed (participants data will not be analyzed during the practical course / workshop).
 
 Fulfillment of these conditions by participants will be assessed through the registration form.
 
 [cols=">a,<a,<a", frame=none, grid=none]
 |===
-| image::images/memphis.jpg[width=300,height=300]
-|image::images/men.jpg[width=600,height=400]
-| image::images/bridge.jpg[width=300,height=300]
+| image::images/memphis.jpg[height=300]
+|image::images/men.jpg[height=300]
+| image::images/bridge.jpg[height=300]
 |===
 
-https://www.memphistravel.com/sports-outdoors?gclid=Cj0KCQiAgOefBhDgARIsAMhqXA4Gt_kloBAAqe5LDWNW3199TI8DzRrUo4fCqSQ_cKLkRPd4xv46TUgaAt4WEALw_wcB[memphistravel]
+https://www.memphistravel.com/sports-outdoors?gclid=Cj0KCQiAgOefBhDgARIsAMhqXA4Gt_kloBAAqe5LDWNW3199TI8DzRrUo4fCqSQ_cKLkRPd4xv46TUgaAt4WEALw_wcB[Explore Memphis]
 
 {empty} +
 {empty} +
 
 == *Contact*
 
-- mailto:aguarra1@uthsc.edu[aguarra1@uthsc.edu]
+- mailto:aguarracino@tgen.org[aguarracino@tgen.org]
