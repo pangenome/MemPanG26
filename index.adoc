@@ -116,15 +116,15 @@ We will work with/on pangenomic tools (such as link:https://github.com/pangenome
 
 image:images/erik.jpeg[erik,200,role="right"] Genomicist with a quantitative social science background. I build methods that let us understand the precise relationships between thousands of genomes. In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of sequences.
 
-image:images/Octicons-mark-github.svg[git,30] https://github.com/ekg[GitHub]
+image:images/UTHSC.png[uthsc,160] {nbsp}{nbsp} image:images/Octicons-mark-github.svg[git,30] {nbsp}{nbsp}https://github.com/ekg[GitHub]
 
 ==== Andrea Guarracino - Assistant Professor
 
 .[purple]#Translational Genomics Research Institute, Phoenix, AZ, US#
 
-image:images/andrea.jpeg[andrea,200,role="right"] Computer scientist dedicated to applying pangenomics to studying genome variation and disease.
+image:images/andrea.jpeg[andrea,200,role="right"] Computer scientist who applies pangenomics to the study of genome variation and disease.
 
-image:https://guarracinolab.github.io/images/GUARRACINOxLAB.png[lab,150,link="https://guarracinolab.github.io/"] https://guarracinolab.github.io/[Lab Website]
+image:images/tgen.png[tgen,120] {nbsp}{nbsp} image:https://guarracinolab.github.io/images/GUARRACINOxLAB.png[lab,150,link="https://guarracinolab.github.io/"] {nbsp}{nbsp}https://guarracinolab.github.io/[Lab Website]
 
 ////
 
@@ -212,10 +212,9 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[GitHub
 // - link:https://aruni.systemreboot.net[Arun Isaac], University College London, London, UK
 // - link:https://www.christinaboucher.com/[Christina Boucher], University of Florida, Gainesville, FL, US
 
-image:images/UTHSC.png[uthsc,300] {nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp} image:https://guarracinolab.github.io/images/tgen.png[tgen,160]
+image:images/UTHSC.png[uthsc,300]
 
-University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics +
-Translational Genomics Research Institute, Bioinnovation and Genome Sciences Division
+University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics
 
 == *Program*
 
