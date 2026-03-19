@@ -1,4 +1,4 @@
-= *MemPanG26*
+= *MemPanG26 - Memphis Pangenomics 2026*
 :figure-caption!:
 :toc-title: MemPanG26
 :toc: left
