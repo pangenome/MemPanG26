@@ -222,40 +222,42 @@ University of Tennessee Health Science Center, Department of Genetics, Genomics 
 
 *Time:* Monday-Tuesday, 11th-12th May 2026 +
 
-*Place*: link:https://www.google.com/maps/place/930+Madison+Ave,+Memphis,+TN+38103/@35.1405526,-90.0321798,17z/data=!3m1!4b1!4m6!3m5!1s0x87d57e65083437ab:0x975bb3c7cbb47cf0!8m2!3d35.1405526!4d-90.0296049!16s%2Fg%2F11c26jf2ws?entry=ttu[930 Madison Ave, Freeman Auditorium at the Hamilton Eye Institute, 3rd floor]
+*Place*: link:https://maps.app.goo.gl/5hj3XLNd8o5AwjX36[Epicenter]
 
-// [options="header", cols="2,1,2,4"]
-// |===
-// |Day | Time | Speaker(s) | Topic
+[options="header", cols="2,1,2,4"]
+|===
+|Day | Time | Speaker(s) | Topic
 
-// |Monday, May 11, 2026 | 09:30-10:00  | Erik Garrison | Presentation: Introduction to pangenomics
-// || 10:00-10:30 | Everyone | Practical: Build your first pangenome graphs
-// || *10:30-11:00* | *Everyone* | *Coffee break*
-// || 11:00-12:30 | Everyone | Practical: PGGB
-// || *12:30-14:00* | *Everyone* | *Lunch (provided)*
-// || 14:00-14:30 | Andrea Guarracino | Presentation: Understanding pangenomes
-// || 14:30-15:30 | Everyone | Practical: ODGI commands
-// || *15:30-16:00* | *Everyone* | *Coffee break*
-// || 16:00-16:45 | Everyone | Practical:  ODGI commands
-// || 16:55-17:00 | Everyone | Q&A, Day 1 Survey
-// |===
+|Monday, May 11, 2026 | 09:30-10:00  | Erik Garrison | Presentation: Introduction to pangenomics, pangenomes and pangenome graph representations
+|| 10:00 | Everyone | Practical: Build your first pangenome graphs
+|| *10:30* | *Everyone* | *Coffee break*
+|| 11:00 | Everyone | Practical: PGGB 
+|| *12:30| *Everyone* | *Lunch (provided)*
+|| 14:00 | Andrea Guarracino | Presentation: Understanding and manipulating pangenomes
+|| 14:15 | Everyone | Practical: ODGI commands
+|| *15:45* | *Everyone* | *Coffee break*
+|| 16:00 | Erik Garrison | Presentation: Sequence partitioning
+|| 16:15 | Everyone | Practical: Reference-guided partitioning
+|| 17:00 | Everyone | Q&A, Day 1 Survey
+|===
 
-// [options="header", cols="2,1,2,4"]
-// |===
-// |Day | Time | Speaker(s) | Topic
-// |Tuesday, May 12, 2026 | 09:30-09:45 | Everyone | Discussion about previous day activities
-// || 09:45-10:00 | Erik Garrison | Presentation: Sequence partitioning
-// || 10:00-10:30 | Everyone | Practical: Reference-guided partitioning
-// || *10:30-11:00* | *Everyone* | *Coffee break*
-// || 11:00-12:30 | Everyone | Practical: Reference-free partitioning
-// || *12:30-14:00* | *Everyone* | *Lunch (provided)*
-// || 14:00-14:30 | Andrea Guarracino | Presentation: Implicit pangenomics and pangenome genotyping
-// || 14:30-16:00 | Everyone | Practical: Implicit pangenome graphs
-// || *16:00-16:30* | *Everyone* | *Coffee break*
-// || 16:00-16:45 | Everyone | Practical: Pangenome-based genotyping
-// || 16:55-17:00 | Everyone | Q&A, Day 2 Survey
-// || 17:00-17:05 | TBD | Closure
-// |===
+[options="header", cols="2,1,2,4"]
+|===
+|Day | Time | Speaker(s) | Topic
+|Tuesday, May 12, 2026 | 09:30 | Everyone | Practical: Reference-free partitioning
+|| 10:00 | Andrea Guarracino | Presentation: Implicit pangenomics and pangenome genotyping
+|| *10:15* | *Everyone* | *Coffee break*
+|| 10:45 | Everyone |  Practicals: Implicit pangenome graphs; Pangenome-based genotyping
+|| *12:30* | *Everyone* | *Lunch (provided)*
+|| 14:00 | Franco Marsico | Local ancestry inference from pangenomes 
+|| 14:15 | Everyone | Practical: Local ancestry inference 
+|| *16:00* | *Everyone* | *Coffee break*
+|| 16:00 | Everyone | 
+|| 17:00 s| Everyone | Q&A, Day 2 Survey
+|| 17:00 | TBD | Closure
+|===
+
+
 
 === Conference
 
