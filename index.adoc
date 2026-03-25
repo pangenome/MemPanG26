@@ -4,6 +4,23 @@
 :toc: left
 :toclevels: 2
 
+++++
+<style>
+span.image.instructor-photo {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+span.image.instructor-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+</style>
+++++
+
 Computational pangenomics course, conference, and biohackathon in Memphis, TN, exploring the cutting edge of pangenomes, biology, methods, software, and artificial intelligence (AI).
 
 image::images/trippy-bridge.png[800]
@@ -88,32 +105,40 @@ We will work with/on pangenomic tools (such as link:https://github.com/pangenome
 
 === *Instructors*
 
-==== Erik Garrison - Associate Professor
+==== *Erik Garrison* - Associate Professor
 
 .[purple]#University of Tennessee Health Science Center, Memphis, TN, US#
 
-image:images/erik.jpeg[erik,200,role="right"] Genomicist with a quantitative social science background. I build methods that let us understand the precise relationships between thousands of genomes. In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of sequences.
+image:images/erik.jpeg[erik,200,role="left instructor-photo"] Genomicist with a quantitative social science background. I build methods that let us understand the precise relationships between thousands of genomes. In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of sequences.
 
 image:images/UTHSC.png[uthsc,160] {nbsp}{nbsp} image:images/Octicons-mark-github.svg[git,30] {nbsp}{nbsp}https://github.com/ekg[GitHub]
 
-==== Andrea Guarracino - Assistant Professor
+==== *Andrea Guarracino* - Assistant Professor
 
 .[purple]#Translational Genomics Research Institute, Phoenix, AZ, US#
 
-image:images/andrea.jpeg[andrea,200,role="right"] Computer scientist who applies pangenomics to the study of genome variation and disease.
+image:images/andrea.jpeg[andrea,200,role="left instructor-photo"] Computer scientist who applies pangenomics to the study of genome variation and disease.
 
-image:images/tgen.png[tgen,120] {nbsp}{nbsp} image:https://guarracinolab.github.io/images/GUARRACINOxLAB.png[lab,150,link="https://guarracinolab.github.io/"] {nbsp}{nbsp}https://guarracinolab.github.io/[Lab Website]
+image:images/tgen.png[tgen,120] {nbsp}{nbsp} image:https://guarracinolab.github.io/images/GUARRACINOxLAB.png[lab,150,link="https://guarracinolab.github.io/"] {nbsp}{nbsp}https://guarracinolab.github.io/[Lab Website] +
+ 
++ 
++ 
++ 
 
-==== Franco Marsico  - Postdoctoral Fellow 
+==== *Franco Marsico* - Postdoctoral Fellow
 
 .[purple]#University of Tennessee Health Science Center, Memphis, TN, US#
 
+image:images/fm.jpeg[franco,200,role="left instructor-photo"] Biologist focused on population genetics. Developing statistical methods for kinship inference and population structure.
+
+image:images/UTHSC.png[uthsc,160] {nbsp}{nbsp} image:images/Octicons-mark-github.svg[git,30] {nbsp}{nbsp}https://github.com/MarsicoFL[GitHub]
 
 '''
 
 === *Helpers*
 
-==== Farnaz Salehi 
+==== Farnaz Salehi
+
 .[purple]# PhD Student, University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics#
 //image:images/niklas.jpeg[niklas,200,role="right"]
 
@@ -123,7 +148,8 @@ image:images/tgen.png[tgen,120] {nbsp}{nbsp} image:https://guarracinolab.github.
 
 //image:images/Octicons-mark-github.svg[git,30] https://scholar.google.com/citations?user=m_vTR7YAAAAJ&hl=en[Google Scholar]
 
-==== Shuo Cao 
+==== Shuo Cao
+
 .[purple]#University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics#
 //image:images/arun.jpg[arun,200,role="right"]
 
@@ -133,7 +159,8 @@ image:images/tgen.png[tgen,120] {nbsp}{nbsp} image:https://guarracinolab.github.
 
 //image:images/Octicons-mark-github.svg[git,30] https://aruni.systemreboot.net[Website]
 
-==== Ernestine Amos-Abanyie  
+==== Ernestine Amos-Abanyie
+
 .[purple]#University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics#
 //image:images/arun.jpg[arun,200,role="right"]
 
@@ -143,7 +170,8 @@ image:images/tgen.png[tgen,120] {nbsp}{nbsp} image:https://guarracinolab.github.
 
 //image:images/Octicons-mark-github.svg[git,30] https://aruni.systemreboot.net[Website]
 
-==== Enza Colonna   
+==== Enza Colonna
+
 .[purple]#University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics#
 //image:images/arun.jpg[arun,200,role="right"]
 
