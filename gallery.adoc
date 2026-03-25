@@ -1,0 +1,43 @@
+= *MemPanG Gallery*
+:figure-caption!:
+:toc-title: MemPanG Gallery
+:toc: left
+:toclevels: 2
+
+Pictures from previous MemPanG editions.
+
+== Photos
+
+[cols="1a,1a,1a", frame=none, grid=none]
+|===
+| image::images/mempang-gallery/IMG20230531111514.jpg[width=320]
+| image::images/mempang-gallery/IMG20240518165626.jpg[width=320]
+| image::images/mempang-gallery/IMG20240521143428.jpg[width=320]
+
+| image::images/mempang-gallery/IMG20240521143532.jpg[width=320]
+| image::images/mempang-gallery/IMG20240521143535.jpg[width=320]
+| image::images/mempang-gallery/IMG20240521144132.jpg[width=320]
+
+| image::images/mempang-gallery/IMG20240521191801.jpg[width=320]
+| image::images/mempang-gallery/IMG20240521192651.jpg[width=320]
+| image::images/mempang-gallery/IMG20240521192655.jpg[width=320]
+
+| image::images/mempang-gallery/IMG20240521192659.jpg[width=320]
+| image::images/mempang-gallery/IMG20240521194611.jpg[width=320]
+| image::images/mempang-gallery/IMG20240521195238.jpg[width=320]
+
+| image::images/mempang-gallery/IMG20240521195242.jpg[width=320]
+| image::images/mempang-gallery/IMG20240521200046.jpg[width=320]
+| image::images/mempang-gallery/IMG20240521203024.jpg[width=320]
+
+| image::images/mempang-gallery/IMG20250513093233.jpg[width=320]
+| image::images/mempang-gallery/IMG20250514172340.jpg[width=320]
+| image::images/mempang-gallery/IMG20250514172347.jpg[width=320]
+
+| image::images/mempang-gallery/IMG20250515142706.jpg[width=320]
+| image::images/mempang-gallery/river.jpg[width=320]
+| image::images/mempang-gallery/topview.jpg[width=320]
+|===
+
+{empty} +
+link:index.html[Back to the main page]
