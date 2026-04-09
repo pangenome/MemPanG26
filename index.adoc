@@ -18,6 +18,15 @@ span.image.instructor-photo img {
   object-fit: cover;
   object-position: center;
 }
+.sponsor-note {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 1.5em;
+  clear: both;
+}
+.sponsor-name {
+  font-size: 1.2em;
+}
 </style>
 ++++
 
@@ -49,6 +58,24 @@ The submission deadline for talk proposals is *April 15th, 2026*.
 We look forward to an engaging day of discussion!
 
 _MemPanG26 organizers_
+
+
+== *Sponsors*
+
+[cols="1,4", frame=none, grid=none]
+|===
+| image:images/Epicenter.jpg[Epicenter,140]
+| [.sponsor-name]*link:https://www.epicentermemphis.org/[Epicenter]*
+
+As the Innovation Hub of the Delta, Epicenter exists to ensure that founders of innovative businesses have what they need to develop, launch and grow their ventures in the Greater Memphis region.
+|===
+
++++
+<p class="sponsor-note">MemPanG26 welcomes sponsorship from organizations that want to support open, collaborative pangenomics research and training.</p>
+<p class="sponsor-note">If you are interested in sponsoring MemPanG26, please contact the organizers to discuss opportunities for the practical course, conference, and biohackathon.</p>
++++
+
+
 
 == *Venue*
 
@@ -323,6 +350,7 @@ Pictures from previous MemPanG editions: link:gallery.html[View the photo galler
 
 {empty} +
 {empty} +
+
 
 == *Contact*
 
