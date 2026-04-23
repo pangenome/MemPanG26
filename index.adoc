@@ -27,6 +27,10 @@ span.image.instructor-photo img {
 .sponsor-name {
   font-size: 1.2em;
 }
+.sponsor-divider {
+  border-top: 1px solid #cfcfcf;
+  margin: 0.8em 0 0.4em;
+}
 </style>
 ++++
 
@@ -36,16 +40,16 @@ image::images/trippy-bridge.png[800]
 
 == *Important Dates*
 
-- Practical course/Conference/Biohackathon Registration Deadline: *10st April 2026*
-- Selected participants will be notified by: *17th April 2026*
-- Payment Deadline: *21st April 2026*
-- Practical course / Workshop: *11th-12th May 2026*
-- Conference: *13th May 2026*
-- Biohackathon: *14th-15th May 2026*
+- Practical course/Conference/Biohackathon Registration Deadline: *April 10, 2026*
+- Selected participants will be notified by: *April 17, 2026*
+- Payment Deadline: *April 30, 2026*
+- Practical course / Workshop: *May 11-12, 2026*
+- Conference: *May 13, 2026*
+- Biohackathon: *May 14-15, 2026*
 
 == *OPEN CALL FOR SPEAKERS*
-We invite experts and enthusiasts in pangenome research to present at the MemPanG26 conference on May 13th, 2026. 
-The submission deadline for talk proposals is *April 15th, 2026*.
+We invite experts and enthusiasts in pangenome research to present at the MemPanG26 conference on May 13, 2026. 
+The submission deadline for talk proposals is *April 15, 2026*.
 
 *Focus Areas:* The conference aims to delve into the multifaceted world of pangenome research and will cover a broad range of topics, including but not limited to, methods in pangenome research, genome assembly, data visualization, artificial intelligence (AI), and collaborative projects.
 
@@ -64,10 +68,13 @@ _MemPanG26 organizers_
 
 [cols="1,4", frame=none, grid=none]
 |===
-| image:images/Epicenter.jpg[Epicenter,140]
-| [.sponsor-name]*link:https://www.epicentermemphis.org/[Epicenter]*
+2+| image:images/UG_2025_RGB_black2.png[Ultima Genomics,link=https://www.ultimagenomics.com/,width=82%]
 
-As the Innovation Hub of the Delta, Epicenter exists to ensure that founders of innovative businesses have what they need to develop, launch and grow their ventures in the Greater Memphis region.
+2+| +++<div class="sponsor-divider"></div>+++
+
+| image:images/Epicenter.jpg[Epicenter,170,link=https://www.epicentermemphis.org/]
+| As the Innovation Hub of the Delta, Epicenter exists to ensure that founders of innovative businesses have what they need to develop, launch and grow their ventures in the Greater Memphis region.
+
 |===
 
 +++
@@ -197,6 +204,17 @@ image:images/UTHSC.png[uthsc,160] {nbsp}{nbsp} image:images/Octicons-mark-github
 
 //image:images/Octicons-mark-github.svg[git,30] https://aruni.systemreboot.net[Website]
 
+==== Fred Muriithi
+
+.[purple]#University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics#
+//image:images/arun.jpg[arun,200,role="right"]
+
+//+
+//+
+//+
+
+//image:images/Octicons-mark-github.svg[git,30] https://aruni.systemreboot.net[Website]
+
 ==== Enza Colonna
 
 .[purple]#University of Tennessee Health Science Center, Department of Genetics, Genomics and Informatics#
@@ -224,7 +242,7 @@ image:images/UTHSC.png[uthsc,300]
 
 == *Program*
 
-=== *Practical course / Workshop* Monday-Tuesday, 11th-12th May 2026
+=== *Practical course / Workshop* Monday-Tuesday, May 11-12, 2026
 
 [options="header", cols="2,1,2,4"]
 |===
@@ -261,7 +279,7 @@ image:images/UTHSC.png[uthsc,300]
 
 
 
-=== *Conference* Wednesday, 13 May 2026 
+=== *Conference* Wednesday, May 13, 2026 
 ==== Speakers and talks to be announced! 
 
 [options="header", cols="2,2,5,2"]
@@ -282,7 +300,7 @@ image:images/UTHSC.png[uthsc,300]
 || 15:00 - 15:05 | Conference Closing | 
 |===
 
-=== *Biohackathon* Thursday-Friday, 14th-15th May 2026 
+=== *Biohackathon* Thursday-Friday, May 14-15, 2026 
 
 [options="header", cols="2,1,4"]
 |===
