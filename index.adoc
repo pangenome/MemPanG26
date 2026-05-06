@@ -55,7 +55,7 @@ The submission deadline for talk proposals is *April 15, 2026*.
 
 *Diverse Perspectives:* We are looking for speakers who can provide insights from different species contexts and who can discuss topics that lie at the intersection of pangenome methods and biology. We are particularly interested in hearing about your unique work and perspectives in pangenome research.
 
-*Duration:* Each talk is 20 minutes, folowed by a 5-minute Q&A.
+*Duration:* Invited talks are 15 minutes, followed by 5 minutes of discussion. Participant flash talks are 8 minutes, followed by 2 minutes for questions.
 
 === -> link:https://docs.google.com/forms/d/e/1FAIpQLScxnkkHBS5Fpzzsyx8WQ5Ej1NPJzU4BCOGGTd0X_bimHUtDTg/viewform?usp=publish-editor[*Conference pre-registration for speakers*] 
 
@@ -279,25 +279,117 @@ image:images/UTHSC.png[uthsc,300]
 
 
 
-=== *Conference* Wednesday, May 13, 2026 
-==== Speakers and talks to be announced! 
+=== *Conference* Wednesday, May 13, 2026
 
-[options="header", cols="2,2,5,2"]
+Invited talks are 15 minutes followed by 5 minutes of discussion. Flash talks from course participants are 10 minutes.
+
+*Chairpersons:* Rob Williams, Enza Colonna
+
+[options="header", cols="2,2,5,3,4"]
 |===
-|Chair | Time | Talk | Speaker
+|Session | Time | Title | Presenter | Affiliation
 
-|| 09:25 - 09:30 | Conference Opening | 
-//|| 09:30 - 10:00 |  |
-//|| 10:00 - 10:30 | 
-//|| 10:30 - 11:00 | 
-//|| *11:00 - 11:30* | *Coffee break* | *Coffee*
-//|| 11:30 - 12:00 |  | 
-//|| 12:00 - 12:30 | 
-//|| 12:30 - 13:00 | 
-//|| *13:00 - 14:00* | *Lunch (provided)* | *Food*
-//| | 14:00 - 14:30 |  | 
-//|| 14:30 - 15:00 | | 
-|| 15:00 - 15:05 | Conference Closing | 
+|*Registration*
+|*09:00 - 09:30*
+|*Registration and coffee*
+|*
+|*
+
+|Opening
+|09:30 - 09:45
+|Introductory remarks
+|Rob Williams
+|Department of Genetics, Genomics and Informatics, UTHSC
+
+|Full talk
+|10:00 - 10:20
+|Ultima Genomics - Redefining High-Throughput Sequencing
+|Drew Greer
+|Ultima Genomics
+
+|Full talk
+|10:20 - 10:40
+|Towards interactive pan-genome browsing in JBrowse 2
+|Diesh
+|University of California, Berkeley
+
+|Full talk
+|10:40 - 11:00
+|Developing a graphical pangenomic pipeline for detecting polymorphic mobile genetic elements
+|Olivier Levine
+|University of Georgia
+
+|*Break*
+|*11:00 - 11:20*
+|*Coffee break*
+|*
+|*
+
+|Full talk
+|11:20 - 11:40
+|GWAS Follow-up of Complex Polymorphic Loci with Pangenome Visualization
+|Scott Mastromatteo
+|The Hospital for Sick Children
+
+|Full talk
+|11:40 - 12:00
+|When Pangenome Meets Behavior: Rat Genetic Diversity, Oxycodone Self-Administration, and the Search for Addiction Biomarkers
+|Hao Chen
+|Department of Pharmacology, Addiction Science and Toxicology, UTHSC
+
+|Flash talk
+|12:00 - 12:10
+|A fast, lossless pangenome-aware read mapper
+|Harieasswar Lakshmidevi
+|Department of Genetics, Genomics and Informatics, UTHSC
+
+|Flash talk
+|12:10 - 12:20
+|Plant immune system diversity with short reads - a la pangenome graph
+|Gautam Shirsekar
+|University of Tennessee
+
+|Flash talk
+|12:20 - 12:30
+|Genome Graph Approaches for Tandem Repeat Haplotype Inference and Methylation Analysis
+|Luis Fernandez Luna
+|McGill University
+
+|*Break*
+|*12:30 - 14:00*
+|*Lunch (provided)*
+|*
+|*
+
+|Flash talk
+|14:00 - 14:10
+|Adapting PGGB to Recapture the Toxoplasma gondii mitochondrial DNA structure
+|Rafeed Rahman Turjya
+|University of Georgia
+
+|Flash talk
+|14:10 - 14:20
+|LD and SegDup
+|Laura Pignata
+|Department of Genetics, Genomics and Informatics, UTHSC
+
+|Flash talk
+|14:20 - 14:30
+|PanQTL
+|Andrea Guarracino
+|TGen
+
+|Full talk
+|14:30 - 14:50
+|Future directions in pangenomics
+|Erik Garrison
+|Department of Genetics, Genomics and Informatics, UTHSC
+
+|Closing
+|14:50 - 15:00
+|Closing remarks
+|Organizers
+|
 |===
 
 === *Biohackathon* Thursday-Friday, May 14-15, 2026 

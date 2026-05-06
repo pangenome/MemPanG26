@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.23">
+<meta name="generator" content="Asciidoctor 2.0.16">
 <title>MemPanG26 - Memphis Pangenomics 2026</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -84,10 +84,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
-ul.square{list-style-type:square}
-ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -140,7 +140,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #content::before{content:none}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
-#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
 #header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
 #header .details span:first-child{margin-left:-.125em}
 #header .details span.email a{color:rgba(0,0,0,.85)}
@@ -162,7 +162,6 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #toctitle{color:#7a2518;font-size:1.2em}
 @media screen and (min-width:768px){#toctitle{font-size:1.375em}
 body.toc2{padding-left:15em;padding-right:0}
-body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
 #toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
 #toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
 #toc.toc2>ul{font-size:.9em;margin-bottom:0}
@@ -194,8 +193,7 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
 details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
 details{margin-left:1.25rem}
-details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
-details>summary::-webkit-details-marker{display:none}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;-webkit-tap-highlight-color:transparent}
 details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
 details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
 details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
@@ -209,10 +207,13 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
 .exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
+.exampleblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child{margin-bottom:0}
 .sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
+.sidebarblock>:first-child{margin-top:0}
+.sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
-.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
-.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
 .literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
@@ -234,8 +235,9 @@ pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
 table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
 table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
 table.linenotable td.code{padding-left:.75em}
-table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+table.linenotable td.linenos{border-right:1px solid;opacity:.35;padding-right:.5em}
+pre.pygments .lineno{border-right:1px solid;opacity:.35;display:inline-block;margin-right:.75em}
+pre.pygments .lineno::before{content:"";margin-right:-.125em}
 .quoteblock{margin:0 1em 1.25em 1.5em;display:table}
 .quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
 .quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
@@ -272,7 +274,7 @@ table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-c
 table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
 table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
 table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
-table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
 th.halign-left,td.halign-left{text-align:left}
 th.halign-right,td.halign-right{text-align:right}
 th.halign-center,td.halign-center{text-align:center}
@@ -288,11 +290,10 @@ ol{margin-left:1.75em}
 ul li ol{margin-left:1.5em}
 dl dd{margin-left:1.125em}
 dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
-li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
 ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
 ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
 ul.unstyled,ol.unstyled{margin-left:0}
-li>p:empty:only-child::before{content:"";display:inline-block}
 ul.checklist>li>p:first-child{margin-left:-1em}
 ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
 ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
@@ -328,13 +329,15 @@ a.image{text-decoration:none;display:inline-block}
 a.image object{pointer-events:none}
 sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
 sup.footnote a,sup.footnoteref a{text-decoration:none}
-sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
 #footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
 #footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
 #footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
 #footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
 #footnotes .footnote:last-of-type{margin-bottom:0}
 #content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
+.gist .file-data>table td.line-data{width:99%}
 div.unbreakable{page-break-inside:avoid}
 .big{font-size:larger}
 .small{font-size:smaller}
@@ -391,7 +394,7 @@ b.conum *{color:inherit!important}
 dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
 h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
 p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
+p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
 .exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
@@ -565,7 +568,7 @@ The submission deadline for talk proposals is <strong>April 15, 2026</strong>.</
 <p><strong>Diverse Perspectives:</strong> We are looking for speakers who can provide insights from different species contexts and who can discuss topics that lie at the intersection of pangenome methods and biology. We are particularly interested in hearing about your unique work and perspectives in pangenome research.</p>
 </div>
 <div class="paragraph">
-<p><strong>Duration:</strong> Each talk is 20 minutes, folowed by a 5-minute Q&amp;A.</p>
+<p><strong>Duration:</strong> Invited talks are 15 minutes, followed by 5 minutes of discussion. Participant flash talks are 8 minutes, followed by 2 minutes for questions.</p>
 </div>
 <div class="sect2">
 <h3 id="_conference_pre_registration_for_speakers">&#8594; <a href="https://docs.google.com/forms/d/e/1FAIpQLScxnkkHBS5Fpzzsyx8WQ5Ej1NPJzU4BCOGGTd0X_bimHUtDTg/viewform?usp=publish-editor"><strong>Conference pre-registration for speakers</strong></a></h3>
@@ -586,16 +589,18 @@ The submission deadline for talk proposals is <strong>April 15, 2026</strong>.</
 <col style="width: 20%;">
 <col style="width: 80%;">
 </colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top" colspan="2"><span class="image"><a class="image" href="https://www.ultimagenomics.com/"><img src="images/UG_2025_RGB_black2.png" alt="Ultima Genomics" width="82%"></a></span></th>
+</tr>
+</thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock"><span class="image"><a class="image" href="https://www.ultimagenomics.com/"><img src="images/UG_2025_RGB_black2.png" alt="Ultima Genomics" width="82%"></a></span></p></td>
+<td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock"><div class="sponsor-divider"></div></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" colspan="2"><div class="sponsor-divider"></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="image"><a class="image" href="https://www.epicentermemphis.org/"><img src="images/Epicenter.jpg" alt="Epicenter" width="170"></a></span></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">As the Innovation Hub of the Delta, Epicenter exists to ensure that founders of innovative businesses have what they need to develop, launch and grow their ventures in the Greater Memphis region.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><a class="image" href="https://www.epicentermemphis.org/"><img src="images/Epicenter.jpg" alt="Epicenter" width="170"></a></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">As the Innovation Hub of the Delta, Epicenter exists to ensure that founders of innovative businesses have what they need to develop, launch and grow their ventures in the Greater Memphis region.</p></td>
 </tr>
 </tbody>
 </table>
@@ -981,39 +986,151 @@ We will work with/on pangenomic tools (such as <a href="https://github.com/pange
 </div>
 <div class="sect2">
 <h3 id="_conference_wednesday_may_13_2026"><strong>Conference</strong> Wednesday, May 13, 2026</h3>
-<div class="sect3">
-<h4 id="_speakers_and_talks_to_be_announced">Speakers and talks to be announced!</h4>
+<div class="paragraph">
+<p>Invited talks are 15 minutes followed by 5 minutes of discussion. Flash talks from course participants are 10 minutes.</p>
+</div>
+<div class="paragraph">
+<p><strong>Chairpersons:</strong> Rob Williams, Enza Colonna</p>
+</div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 18.1818%;">
-<col style="width: 18.1818%;">
-<col style="width: 45.4545%;">
-<col style="width: 18.1819%;">
+<col style="width: 12.5%;">
+<col style="width: 12.5%;">
+<col style="width: 31.25%;">
+<col style="width: 18.75%;">
+<col style="width: 25%;">
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Chair</th>
+<th class="tableblock halign-left valign-top">Session</th>
 <th class="tableblock halign-left valign-top">Time</th>
-<th class="tableblock halign-left valign-top">Talk</th>
-<th class="tableblock halign-left valign-top">Speaker</th>
+<th class="tableblock halign-left valign-top">Title</th>
+<th class="tableblock halign-left valign-top">Presenter</th>
+<th class="tableblock halign-left valign-top">Affiliation</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">09:25 - 09:30</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Conference Opening</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Registration</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>09:00 - 09:30</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Registration and coffee</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">15:00 - 15:05</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Conference Closing</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Opening</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09:30 - 09:45</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Introductory remarks</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Rob Williams</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Department of Genetics, Genomics and Informatics, UTHSC</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Full talk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10:00 - 10:20</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ultima Genomics - Redefining High-Throughput Sequencing</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Drew Greer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ultima Genomics</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Full talk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10:20 - 10:40</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Towards interactive pan-genome browsing in JBrowse 2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diesh</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">University of California, Berkeley</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Full talk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10:40 - 11:00</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Developing a graphical pangenomic pipeline for detecting polymorphic mobile genetic elements</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Olivier Levine</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">University of Georgia</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Break</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>11:00 - 11:20</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Coffee break</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Full talk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11:20 - 11:40</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GWAS Follow-up of Complex Polymorphic Loci with Pangenome Visualization</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Scott Mastromatteo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The Hospital for Sick Children</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Full talk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11:40 - 12:00</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">When Pangenome Meets Behavior: Rat Genetic Diversity, Oxycodone Self-Administration, and the Search for Addiction Biomarkers</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Hao Chen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Department of Pharmacology, Addiction Science and Toxicology, UTHSC</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Flash talk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12:00 - 12:10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A fast, lossless pangenome-aware read mapper</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Harieasswar Lakshmidevi</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Department of Genetics, Genomics and Informatics, UTHSC</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Flash talk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12:10 - 12:20</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plant immune system diversity with short reads - a la pangenome graph</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gautam Shirsekar</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">University of Tennessee</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Flash talk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12:20 - 12:30</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Genome Graph Approaches for Tandem Repeat Haplotype Inference and Methylation Analysis</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Luis Fernandez Luna</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">McGill University</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Break</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>12:30 - 14:00</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Lunch (provided)</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Flash talk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14:00 - 14:10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Adapting PGGB to Recapture the Toxoplasma gondii mitochondrial DNA structure</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Rafeed Rahman Turjya</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">University of Georgia</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Flash talk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14:10 - 14:20</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LD and SegDup</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Laura Pignata</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Department of Genetics, Genomics and Informatics, UTHSC</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Flash talk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14:20 - 14:30</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PanQTL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Andrea Guarracino</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TGen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Full talk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14:30 - 14:50</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Future directions in pangenomics</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Erik Garrison</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Department of Genetics, Genomics and Informatics, UTHSC</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Closing</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14:50 - 15:00</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Closing remarks</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Organizers</p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 <div class="sect2">
 <h3 id="_biohackathon_thursday_friday_may_14_15_2026"><strong>Biohackathon</strong> Thursday-Friday, May 14-15, 2026</h3>
@@ -1233,7 +1350,7 @@ In certain circumstances, we can waive the fees.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-04-16 08:24:23 -0700
+Last updated 2026-05-06 13:40:33 -0400
 </div>
 </div>
 </body>
