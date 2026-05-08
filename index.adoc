@@ -265,11 +265,11 @@ image:images/UTHSC.png[uthsc,300]
 |===
 |Day | Time | Instructor(s) | Topic
 |Tuesday, May 12, 2026 | 09:30-10:15 | Everyone | Practical: Reference-free partitioning
-|| 10:15-10:45 | Andrea Guarracino | Presentation: Implicit pangenomics and pangenome genotyping
+|| 10:15-10:45 | Andrea Guarracino | Presentation: Implicit pangenomics
 || *10:45-11:00* | *Everyone* | *Coffee break*
 || 11:00-12:30 | Everyone |  Practical: Implicit pangenome graphs
 || *12:30-14:00* | *Everyone* | *Lunch (provided)*
-|| 14:00-15:30 |  Everyone |  Practical: Pangenome-based genotyping
+|| 14:00-15:30 |  Everyone |  Practical: Pangenome alignment compression
 || 15:30-15:45 | Franco Marsico | Presentation: Local ancestry inference from pangenomes 
 || *15:45-16:00* | *Everyone* | *Coffee break*
 || 16:00-17:00 | Everyone | Practical: Local ancestry inference 
