@@ -124,7 +124,7 @@ By the end of the practical course / workshop, participants will have a strong u
 The in-person conference on the day after the practical course / workshop will bring together practical course / workshop participants and virtual and in-person speakers who are actively working on diverse aspects of pangenome research. Speakers will cover topics at the intersection of pangenome methods and biology, including a focus on basic methods, data structures, genome assembly, data visualization, and public collaborative pangenome projects.
 We expect to draw speakers from a diverse set of species contexts.
 
-*Virtual and in-person attendance is free and open to the public. Link for attendance will be posted soon*
+*Virtual and in-person attendance is free and open to the public. link:https://tennesseehipaa.zoom.us/j/86514448732[Link for attendance]*
 
 
 == *About the biohackathon*
@@ -284,6 +284,8 @@ Invited talks are 15 minutes followed by 5 minutes of discussion. Flash talks fr
 
 *Chairpersons:* Rob Williams, Enza Colonna
 
+*Virtual attendance:* link:https://tennesseehipaa.zoom.us/j/86514448732[Join the conference on Zoom]
+
 [options="header", cols="2,2,5,3,4"]
 |===
 |Session | Time | Title | Presenter | Affiliation
@@ -368,7 +370,7 @@ Invited talks are 15 minutes followed by 5 minutes of discussion. Flash talks fr
 
 |Flash talk
 |14:10 - 14:20
-|LD and SegDup
+|Using pangenomes to understand genomic variation in complex genomic regions
 |Laura Pignata
 |Department of Genetics, Genomics and Informatics, UTHSC
 
