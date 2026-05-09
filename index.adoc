@@ -375,7 +375,7 @@ Invited talks are 15 minutes followed by 5 minutes of discussion. Flash talks fr
 
 |Flash talk
 |14:20 - 14:30
-|Pangenome-Wide Association Study
+|Pangenome-Wide Association Study (in mice)
 |Andrea Guarracino
 |TGen
 
