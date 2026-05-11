@@ -256,8 +256,7 @@ image:images/UTHSC.png[uthsc,300]
 || 14:00-14:15 | Andrea Guarracino | Presentation: Understanding and manipulating pangenomes
 || 14:15-15:45 | Everyone | Practical: ODGI toolkit commands
 || *15:45-16:00* | *Everyone* | *Coffee break*
-|| 16:00-16:15 | Andrea Guarracino | Presentation: Sequence partitioning
-|| 16:15-17:00 | Everyone | Practical: Sequence partitioning
+|| 16:00-17:00 | Everyone | Practical: Sequence partitioning
 || 17:00-17:05 | Everyone | Q&A, Day 1 Survey
 |===
 
