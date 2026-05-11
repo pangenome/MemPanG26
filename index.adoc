@@ -263,7 +263,7 @@ image:images/UTHSC.png[uthsc,300]
 [options="header", cols="2,1,2,4"]
 |===
 |Day | Time | Instructor(s) | Topic
-|Tuesday, May 12, 2026 | 09:30-10:15 | Andrea Guarracino | Presentation: Implicit pangenomics
+|Tuesday, May 12, 2026 | 09:30-10:15 | Andrea Guarracino / Hasitha Kaushan | Presentation: Implicit pangenomics / Pangenome alignment compression
 || 10:15-10:45 | Everyone | Practical: Implicit pangenome graphs
 || *10:45-11:00* | *Everyone* | *Coffee break*
 || 11:00-12:30 | Everyone |  Practical: Implicit pangenome graphs
