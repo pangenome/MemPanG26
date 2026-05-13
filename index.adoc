@@ -297,7 +297,13 @@ Invited talks are 15 minutes followed by 5 minutes of discussion. Flash talks fr
 |*
 
 |Opening
-|09:30 - 09:45
+|09:30 - 09:40
+|
+|Epicenter
+|
+
+|Opening
+|09:40 - 09:55
 |Introductory remarks
 |Rob Williams
 |Department of Genetics, Genomics and Informatics, UTHSC
@@ -332,11 +338,11 @@ Invited talks are 15 minutes followed by 5 minutes of discussion. Flash talks fr
 |Scott Mastromatteo
 |The Hospital for Sick Children
 
-|Full talk
-|11:40 - 12:00
-|When Pangenome Meets Behavior: Rat Genetic Diversity, Oxycodone Self-Administration, and the Search for Addiction Biomarkers
-|Hao Chen
-|Department of Pharmacology, Addiction Science and Toxicology, UTHSC
+|Flash talk
+|11:40 - 11:50
+|To be defined
+|Kritika Chopra
+|
 
 |Flash talk
 |12:00 - 12:10
@@ -347,8 +353,8 @@ Invited talks are 15 minutes followed by 5 minutes of discussion. Flash talks fr
 |Flash talk
 |12:10 - 12:20
 |Plant immune system diversity with short reads - a la pangenome graph
-|Gautam Shirsekar
-|University of Tennessee
+|Andrea Guarracino
+|TGen
 
 |Flash talk
 |12:20 - 12:30
@@ -377,8 +383,8 @@ Invited talks are 15 minutes followed by 5 minutes of discussion. Flash talks fr
 |Flash talk
 |14:20 - 14:30
 |Pangenome-Wide Association Study (in mice)
-|Andrea Guarracino
-|TGen
+|Gautam Shirsekar
+|University of Tennessee
 
 |Full talk
 |14:30 - 14:50
